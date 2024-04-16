@@ -1,6 +1,6 @@
 # Greetings
 
-I am a Data Scientist at the [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html), which is part of the [Centers for Disease Control and Prevention](https://www.cdc.gov/) (CDC).
+I am a Data Scientist at the [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html) (CFA), which is part of the [Centers for Disease Control and Prevention](https://www.cdc.gov/) (CDC).
 
 * For some time now, as part of my job, I've been absorbing procedural bayesian inference knowledge and have also been familiarizing myself with practices in infectious disease modelling.
 * Each week, I typically use [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) and [Numpyro](https://num.pyro.ai/en/stable/getting_started.html); the majority of my code is written in Python.

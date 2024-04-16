@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "afg6k7h4fhy2"
+version = "0.1.0"
+description = "This is the headquarters of afg6k7h4fhy2's GitHub profile."
+authors = ["AFg6K7h4fhy2 <127630341+AFg6K7h4fhy2@users.noreply.github.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pre-commit = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

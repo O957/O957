@@ -1,9 +1,10 @@
 repos:
 ################################################################################
-# Basic file cleanliness
+# General
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
+    -   id: check-added-large-files
     -   id: check-yaml
         args: [--allow-multiple-documents]
     -   id: check-toml
@@ -12,8 +13,8 @@ repos:
     -   id: trailing-whitespace
 ################################################################################
 # Python
--   repo: https://github.com/psf/black-pre-commit-mirror # was https://github.com/psf/black
-    rev: 24.3.0 # was 23.10.0
+-   repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 24.3.0
     hooks:
     -   id: black-jupyter
         args: ['--line-length', '79']
@@ -43,6 +44,12 @@ repos:
     rev: v1.6.27
     hooks:
     -   id: actionlint
+################################################################################
+# Make Files
+# -   repo: https://github.com/mrtazz/checkmake.git
+#     rev: 0.2.2
+#     hooks:
+#     -   id: checkmake
 ################################################################################
 # Typos
 -   repo: https://github.com/crate-ci/typos

@@ -106,7 +106,7 @@ __explanation__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short: _Documentation that explains_
+* Description, Short: _Documentation that primarily explains_
 * Usage: Typically used in issues for documentation or content that explains something as is described via [diataxis](https://diataxis.fr/explanation/)
 
 __feedback__
@@ -134,7 +134,7 @@ __guide__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short: _Documentation that guides how-to_
+* Description, Short: _Documentation that primarily guides how-to_
 * Usage: Typically used in issues for documentation or content that guides someone through something as is described via [diataxis](https://diataxis.fr/explanation/)
 
 __help wanted__
@@ -204,7 +204,7 @@ __reference__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short: _Documentation serving as a reference_
+* Description, Short: _Documentation primarily serving as a reference_
 * Usage: Typically used in issues for documentation or content people can use a reference, as is described via [diataxis](https://diataxis.fr/explanation/)
 
 
@@ -261,7 +261,7 @@ __tutorial__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short:  _Documentation that teaches_
+* Description, Short:  _Documentation that primarily teaches_
 * Usage: Typically used in issues for documentation or content that teaches someone something as is described via [diataxis](https://diataxis.fr/explanation/)
 
 __visuals__

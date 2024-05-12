@@ -290,3 +290,20 @@ Presently, the labels are all colored gray (`#cfd3d7`). Colored labels are more 
 * [Grayscale](https://en.wikipedia.org/wiki/Grayscale)
 * [Color psychology](https://en.wikipedia.org/wiki/Color_psychology)
 * [DEFCON](https://en.wikipedia.org/wiki/DEFCON)
+
+Since issue labels [cannot be transferred between repositories](https://docs.github.com/articles/about-labels) (e.g., via a template) by default, [the following method](https://github.com/hackebrot/labels) enables one to sync their labels across repositories:
+
+```
+pip3 install labels
+```
+
+Now go into the working directory where you want to apply a set of labels and then do the following:
+
+```
+export LABELS_USERNAME="<your_github_username>"
+export LABELS_TOKEN="<your_authentication_token>"
+labels fetch -o <your_github_username> -r <repository_from_which_to_get_labels>
+labels sync
+```
+
+This method works as of 2024-05-12.

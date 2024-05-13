@@ -16,8 +16,8 @@ Dear reader, I wish you good health and a nice year.
 
 ---
 
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AFg6K7h4fhy2&hide=HTML,CSS,SCSS,jupyter%20notebook)
+![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AFg6K7h4fhy2&hide=HTML,CSS,SCSS,jupyter%20notebook,Javascript&langs_count=8&layout=donut)
 
 ---
 
-_The background is a pen and watercolor [painting from 1869](https://commons.wikimedia.org/wiki/File:Frederik_Christian_Lund_-_Udsigt_over_Forum_Romanum._I_baggrunden_ses_Colosseum._-_1869.png) by Frederick Christian Lund._
+_The background is a pen and watercolor [painting from 1869](https://commons.wikimedia.org/wiki/File:Frederik_Christian_Lund_-_Udsigt_over_Forum_Romanum._I_baggrunden_ses_Colosseum._-_1869.png) by Frederick Christian Lund_

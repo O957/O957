@@ -10,4 +10,4 @@ I am a Data Scientist at the [Center for Forecasting and Outbreak Analytics](htt
 
 Dear reader, I wish you good health and a nice year.
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=AFg6K7h4fhy2)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=AFg6K7h4fhy2&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)

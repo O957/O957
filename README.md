@@ -27,4 +27,6 @@ Dear reader, I wish you good health and a nice year.
 
 ---
 
+![](https://komarev.com/ghpvc/?username=AFg6K7h4fhy2&color=yellow&style=for-the-badge&label=VISITORS)
+
 _The background is a pen and watercolor [painting from 1869](https://commons.wikimedia.org/wiki/File:Frederik_Christian_Lund_-_Udsigt_over_Forum_Romanum._I_baggrunden_ses_Colosseum._-_1869.png) by Frederick Christian Lund_

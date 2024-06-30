@@ -1,48 +1,3 @@
-#####
-# Exclude many data and output file types by default
-
-# Data
-# *.csv
-# *.tsv
-*.parquet
-*.dat
-*.bin
-*.xls
-*.xlsx
-
-# Documents
-*.doc
-*.docx
-*.htm
-# *.html
-*.ppt
-# *.pptx
-# *.pdf
-
-# Images
-*.bmp
-# *.jpg
-# *.jpeg
-*.gif
-# *.pdf
-# *.png
-
-# Compressed archives
-*.gz
-*.tar
-*.tgz
-*.rar
-*.zip
-
-# Allowlist
-# !your_data_file.csv
-# !your_data_directory/
-
-
-#####
-# Python
-# https://github.com/github/gitignore/blob/main/Python.gitignore
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -50,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+
+# Mac DS Store
+.DS_Store
 
 # Distribution / packaging
 .Python
@@ -128,31 +86,29 @@ profile_default/
 ipython_config.py
 
 # pyenv
-#   For a library or package, you might want to ignore these files since the
-#   code is intended to run in multiple environments; otherwise, check them in:
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
 # .python-version
 
 # pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in
-#   version control. However, in case of collaboration, if having
-#   platform-specific dependencies or dependencies having no cross-platform
-#   support, pipenv may install dependencies that don't work, or not install all
-#   needed dependencies.
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
 #Pipfile.lock
 
 # poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock
-#   in version control. This is especially recommended for binary packages to
-#   ensure reproducibility, and is more commonly ignored for libraries.
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
 #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
 #poetry.lock
 
 # pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in
-#   version control.
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
 #pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended
-#   to not include it in version control.
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
 #   https://pdm.fming.dev/#use-with-ide
 .pdm.toml
 
@@ -169,7 +125,6 @@ celerybeat.pid
 # Environments
 .env
 .venv
-*.env
 env/
 venv/
 ENV/
@@ -201,193 +156,310 @@ dmypy.json
 cython_debug/
 
 # PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore
-#  that can be found at
-#  https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.
-#  For a more nuclear option (not recommended) you can uncomment the following
-#  to ignore the entire idea folder.
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-#####
-# R
-# https://github.com/github/gitignore/blob/main/R.gitignore
-
-# History files
-.Rhistory
-.Rapp.history
-
-# Session Data files
-.RData
-.RDataTmp
-
-# User-specific files
-.Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-# docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
-
-#####
-# Java
-# https://github.com/github/gitignore/blob/main/Java.gitignore
-
-# Compiled class file
-*.class
-
-# Log file
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see
-# http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
-
-#####
-# C++
-# https://github.com/github/gitignore/blob/main/C%2B%2B.gitignore
-
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
+*.lot
+*.fls
 *.out
-*.app
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
 
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+# these rules might exclude image files for figures etc.
+# *.ps
+# *.eps
+# *.pdf
 
-#####
-# Rust
-# https://github.com/github/gitignore/blob/main/Rust.gitignore
+## Generated if empty string is given at "Please type another file AFg6K7h4fhy2 for output:"
+.pdf
 
-# Generated by Cargo
-# will have compiled files and executables
-debug/
-target/
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
 
-# Remove Cargo.lock from gitignore if creating an executable, leave it for
-# libraries. More information here
-# https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
-#Cargo.lock
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
 
-# These are backup files generated by rustfmt
-**/*.rs.bk
+## Build tool directories for auxiliary files
+# latexrun
+latex.out/
 
-# MSVC Windows builds of rustc generate these, which store debugging information
-*.pdb
+## Auxiliary and intermediate files from other packages:
+# algorithms
+*.alg
+*.loa
 
-#####
-# Julia
-# https://github.com/github/gitignore/blob/main/Julia.gitignore
+# achemso
+acs-*.bib
 
-# Files generated by invoking Julia with --code-coverage
-*.jl.cov
-*.jl.*.cov
+# amsthm
+*.them
 
-# Files generated by invoking Julia with --track-allocation
-*.jl.mem
+# beamer
+*.nav
+*.pre
+*.snm
+*.vrb
 
-# System-specific files and directories generated by the BinaryProvider and
-# BinDeps packages. They contain absolute paths specific to the host computer,
-# and so should not be committed
-deps/deps.jl
-deps/build.log
-deps/downloads/
-deps/usr/
-deps/src/
+# changes
+*.soc
 
-# Build artifacts for creating documentation generated by the Documenter package
-docs/build/
-docs/site/
+# comment
+*.cut
 
-# File generated by Pkg, the package manager, based on a corresponding
-# Project.toml It records a fixed state of all packages used by the project. As
-# such, it should not be committed for packages, but should be committed for
-# applications that require a static environment.
-#Manifest.toml
+# cprotect
+*.cpt
 
-# Ignore DS_Store files
-*.DS_Store
-.DS_Store
+# elsarticle (documentclass of Elsevier journals)
+*.spl
 
-# Ignore .netrc files
-*.netrc
-.netrc
+# endnotes
+*.ent
 
-# Ignore backup files
-*~
+# fixme
+*.lox
+
+# feynmf/feynmp
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+
+#(r)(e)ledmac/(r)(e)ledpar
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+
+# glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+*.slg
+*.slo
+*.sls
+
+# uncomment this for glossaries-extra (will ignore makeindex's style files!)
+# *.ist
+
+# gnuplot
+*.gnuplot
+*.table
+
+# gnuplottex
+*-gnuplottex-*
+
+# gregoriotex
+*.gaux
+*.glog
+*.gtex
+
+# htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+
+# hyperref
+*.brf
+
+# knitr
+*-concordance.tex
+# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
+# *.tikz
+*-tikzDictionary
+
+# listings
+*.lol
+
+# luatexja-ruby
+*.ltjruby
+
+# makeidx
+*.idx
+*.ilg
+*.ind
+
+# minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# minted
+_minted*
+*.pyg
+
+# morewrites
+*.mw
+
+# newpax
+*.newpax
+
+# nomencl
+*.nlg
+*.nlo
+*.nls
+
+# pax
+*.pax
+
+# pdfpcnotes
+*.pdfpc
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# scrwfile
+*.wrt
+
+# svg
+svg-inkscape/
+
+# sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+# pdfcomment
+*.upa
+*.upb
+
+# pythontex
+*.pytxcode
+pythontex-files-*/
+
+# tcolorbox
+*.listing
+
+# thmtools
+*.loe
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+# titletoc
+*.ptc
+
+# todonotes
+*.tdo
+
+# vhistory
+*.hst
+*.ver
+
+# easy-todo
+*.load
+
+# xcolor
+*.xcp
+
+# xmpincl
+*.xmpi
+
+# xindy
+*.xdy
+
+# xypic precompiled matrices and outlines
+*.xyc
+*.xyd
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
+
+## Editors:
+# WinEdt
+*.bak
+*.save
+
+# Texpad
+.texpadtmp
+
+# LyX
+*.lyx~
+
+# Kile
+*.backup
+
+# gummi
+.*.swp
+
+# KBibTeX
+*~[0-9]*
+
+# TeXnicCenter
+*.tps
+
+# auto folder when using emacs and auctex
+./auto/*
+*.el
+
+# expex forward references with \gathertags
+*-tags.tex
+
+# standalone packages
+*.sta
+
+# Makeindex log files
+*.lpz
+
+# xwatermark package
+*.xwm
+
+# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
+# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
+# Uncomment the next line to have this generated file ignored.
+#*Notes.bib

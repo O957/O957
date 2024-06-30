@@ -176,7 +176,7 @@ __performance__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short: _Improvements or additions to performance_
+* Description, Short: _Improvements to repository performance_
 * Usage: TODO
 
 __presentation__
@@ -190,14 +190,14 @@ __question__
 
 * Default Color: `#cfd3d7`
 * Notes: GitHub default, original description _Further information is requested_
-* Description, Short: _Further information is requested_
+* Description, Short: _Request for further information_
 * Usage: TODO
 
 __reading__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short: _Engagement with written information_
+* Description, Short: _Reading engagement (learning)_
 * Usage: TODO
 
 __reference__
@@ -212,7 +212,7 @@ __reproducibility__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short: _Improvements or additions to repository reproducibility_
+* Description, Short: _Related to repository reproducibility_
 * Usage: TODO
 
 __resources__
@@ -240,7 +240,7 @@ __standards__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short: _Best practices on ways to do things_
+* Description, Short: _Related to best practices and standards_
 * Usage: TODO
 
 __template__
@@ -254,7 +254,7 @@ __testing__
 
 * Default Color: `#cfd3d7`
 * Notes:
-* Description, Short: _Verifying something works as intentioned_
+* Description, Short: _Verifying something works as intended_
 * Usage: TODO
 
 __tutorial__

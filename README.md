@@ -1,4 +1,4 @@
-![FC Lund](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/gudin_hope_castaways.jpg){ width=75% }
+![FC Lund](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/gudin_hope_castaways.jpg)
 
 Greetings, I am a Data Scientist at the [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html) (CFA), which is part of the [Centers for Disease Control and Prevention](https://www.cdc.gov/) (CDC).
 

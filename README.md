@@ -1,4 +1,4 @@
-![FC Lund](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/fc_lund_1869.jpg)
+![FC Lund](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/gudin_hope_castaways.jpg){ width=75% }
 
 Greetings, I am a Data Scientist at the [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html) (CFA), which is part of the [Centers for Disease Control and Prevention](https://www.cdc.gov/) (CDC).
 
@@ -28,6 +28,8 @@ Dear reader, I wish you good health and a nice year.
 
 ---
 
-![](https://komarev.com/ghpvc/?username=AFg6K7h4fhy2&color=yellow&style=for-the-badge&label=VISITORS)
+![](https://komarev.com/ghpvc/?username=AFg6K7h4fhy2&color=yellow&style=for-the-badge&label=NON-UNIQUE_VISITS)
 
-_The background is a pen and watercolor [painting from 1869](https://commons.wikimedia.org/wiki/File:Frederik_Christian_Lund_-_Udsigt_over_Forum_Romanum._I_baggrunden_ses_Colosseum._-_1869.png) by Frederick Christian Lund_
+<!-- _The background is a pen and watercolor [painting from 1869](https://commons.wikimedia.org/wiki/File:Frederik_Christian_Lund_-_Udsigt_over_Forum_Romanum._I_baggrunden_ses_Colosseum._-_1869.png) by Frederick Christian Lund_ -->
+
+_The background is an oil on canvas [painting](https://www.artnet.com/artists/baron-jean-antoine-th%C3%A9odore-gudin/the-hope-of-the-castaways-pTUnTF-H1RhF7xHdCirEHA2) called_ The hope of the castaways _by Baron Jean Antoine Théodore Gudin (French, 1802–1880)_.

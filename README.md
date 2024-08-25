@@ -1,4 +1,4 @@
-![FC Lund](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/gudin_hope_castaways.jpg)
+![FC Lund](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/View_Of_Nizhny_Novgorod_by_Nikanor_Grigorievich_Chernetsov_1837_Oil_Canvas_Realism.jpg)
 
 Greetings, I am a Data Scientist at the [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html) (CFA), which is part of the [Centers for Disease Control and Prevention](https://www.cdc.gov/) (CDC).
 
@@ -32,7 +32,9 @@ Dear reader, I wish you good health and a nice year.
 
 <!-- _The background is a pen and watercolor [painting from 1869](https://commons.wikimedia.org/wiki/File:Frederik_Christian_Lund_-_Udsigt_over_Forum_Romanum._I_baggrunden_ses_Colosseum._-_1869.png) by Frederick Christian Lund_ -->
 
-_The background is an oil on canvas [painting](https://www.artnet.com/artists/baron-jean-antoine-th%C3%A9odore-gudin/the-hope-of-the-castaways-pTUnTF-H1RhF7xHdCirEHA2) called_ The hope of the castaways _by Baron Jean Antoine Théodore Gudin (French, 1802–1880)_.
+<!-- _The background is an oil on canvas [painting](https://www.artnet.com/artists/baron-jean-antoine-th%C3%A9odore-gudin/the-hope-of-the-castaways-pTUnTF-H1RhF7xHdCirEHA2) called_ The hope of the castaways _by Baron Jean Antoine Théodore Gudin (French, 1802–1880)_. -->
+
+_The background is an 1837 oil on canvas [painting](https://arthive.com/artists/713~Nikanor_Grigorievich_Chernetsov/works/487388~View_Of_Nizhny_Novgorod_1837) called_ View Of Nizhny Novgorod _by Nikanor Grigorievich Chernetsov_.
 
 ---
 

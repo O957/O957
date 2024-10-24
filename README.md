@@ -1,6 +1,8 @@
 <!-- ![FC Lund](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/View_Of_Nizhny_Novgorod_by_Nikanor_Grigorievich_Chernetsov_1837_Oil_Canvas_Realism.jpg) -->
 
-![cover](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/cover.jpg)
+<!-- ![cover](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/cover.jpg) -->
+
+![cover](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/unidentified.jpg)
 
 
 Greetings, I am a Data Scientist at the [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html) (CFA), which is part of the [Centers for Disease Control and Prevention](https://www.cdc.gov/) (CDC).

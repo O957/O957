@@ -41,7 +41,7 @@ Crocker's Rules
 
 [^crocker]: For more information on Crocker's Rules, see [the original formulation](http://sl4.org/crocker.html) and [the LessWrong explanation](https://www.lesswrong.com/tag/crockers-rules).
 
-Any feedback is appreciated. If you have something to critique about me or my work or something to tell me, please [make an issue here](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/issues) or in the specific repository you have comments on. I can also be contacted at <my profile name> <at> <proton> <dot> <me>. As far as roasts go, [this AI bot](https://github-roast.pages.dev/) critiqued any earlier version of my profile...which I am taking as feedback:
+Any feedback is appreciated. If you have something to critique about me or my work or something to tell me, please [make an issue here](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/issues) or in the specific repository you have comments on. I can also be contacted at (my profile name) (at) (proton) (dot) (me). As far as roasts go, [this AI bot](https://github-roast.pages.dev/) critiqued any earlier version of my profile...which I am taking as feedback:
 
 <details markdown=1>
 <summary>

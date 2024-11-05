@@ -74,18 +74,32 @@ Repositories
 
 ## Varia
 
-> Organisms are born; man is made.
+<details>
+
+<summary>
+_Some Quotes_
+</summary>
+
+> _Organisms are born; man is made._
 >
 > J. D. Bernal, 1929
 
 ...
 
-> If some future organisms found the remains of humans only as fossils, it would not be astonished. It would place them with the monkeys; its peculiarity would only be in its bipedal gait, but bipedalism would have already been recognized as a common form of locomotion. The abnormally swollen, bubbled-up brain-capsule might draw attention; but it would hardly be evident from physiology alone that this was the species that transformed the planet in a way unlike any other in the billions of years of life's history.
+> _If some future organisms found the remains of humans only as fossils, it would not be astonished. It would place them with the monkeys; its peculiarity would only be in its bipedal gait, but bipedalism would have already been recognized as a common form of locomotion. The abnormally swollen, bubbled-up brain-capsule might draw attention; but it would hardly be evident from physiology alone that this was the species that transformed the planet in a way unlike any other in the billions of years of life's history._
 >
 > —Adolf Remane, 1971
 
 ...
 
-> If you can't explain something simply, you don't understand it well enough.
+> _If you can't explain something simply, you don't understand it well enough._
 >
 > —Albert Einstein
+
+</details>
+
+Some Selected Wisdom
+
+
+
+_Some Documents I Appreciate_

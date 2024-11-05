@@ -1,8 +1,3 @@
-<!-- ![FC Lund](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/View_Of_Nizhny_Novgorod_by_Nikanor_Grigorievich_Chernetsov_1837_Oil_Canvas_Realism.jpg) -->
-
-<!-- ![cover](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/cover.jpg) -->
-
-![cover](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/unidentified.jpg)
 
 
 Greetings, I am a Data Scientist at the [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html) (CFA), which is part of the [Centers for Disease Control and Prevention](https://www.cdc.gov/) (CDC).
@@ -11,31 +6,13 @@ Greetings, I am a Data Scientist at the [Center for Forecasting and Outbreak Ana
 Dear reader, I wish you good health and a nice year.
 
 
-<!-- [![GitHub stats](https://github-readme-stats.vercel.app/api?username=AFg6K7h4fhy2&show_icons=true&theme=dracula&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/anuraghazra/github-readme-stats)
 
-
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AFg6K7h4fhy2&hide=HTML,CSS,SCSS,jupyter%20notebook,Javascript&langs_count=8&layout=donut)
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=AFg6K7h4fhy2&show_icons=true&theme=dracula&show=reviews,prs_merged,prs_merged_percentage" />
-</a>
--->
-
-<!--
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFg6K7h4fhy2&hide=HTML,CSS,SCSS,jupyter%20notebook,Javascript&langs_count=8&layout=compact" />
-</a>
--->
 
 ---
 
 ![](https://komarev.com/ghpvc/?username=AFg6K7h4fhy2&color=yellow&style=for-the-badge&label=NON-UNIQUE_VISITS)
 
-<!-- _The background is a pen and watercolor [painting from 1869](https://commons.wikimedia.org/wiki/File:Frederik_Christian_Lund_-_Udsigt_over_Forum_Romanum._I_baggrunden_ses_Colosseum._-_1869.png) by Frederick Christian Lund_ -->
 
-<!-- _The background is an oil on canvas [painting](https://www.artnet.com/artists/baron-jean-antoine-th%C3%A9odore-gudin/the-hope-of-the-castaways-pTUnTF-H1RhF7xHdCirEHA2) called_ The hope of the castaways _by Baron Jean Antoine Théodore Gudin (French, 1802–1880)_. -->
-
-<!-- _The background is an 1837 oil on canvas [painting](https://arthive.com/artists/713~Nikanor_Grigorievich_Chernetsov/works/487388~View_Of_Nizhny_Novgorod_1837) called_ View Of Nizhny Novgorod _by Nikanor Grigorievich Chernetsov_. -->
 
 ---
 

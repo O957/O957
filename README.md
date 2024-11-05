@@ -1,14 +1,10 @@
 ## Aesthetics
 
----
-
 ![cover](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/unidentified.jpg)
 
 I am very much motivationally uplifted by looking at beautiful works of art; as such, I include them in my profile, which I've bookmarked on FireFox and which is a place I head to often. That this picture is the first object seen on my profile is by design. I rotate artworks not more than twice monthly.
 
 ## Context
-
----
 
 I consider myself an average data scientist*.
 
@@ -26,8 +22,6 @@ At present, I work for the [Center for Forecasting and Outbreak Analytics](https
 ![](https://komarev.com/ghpvc/?username=AFg6K7h4fhy2&color=yellow&style=for-the-badge&label=NON-UNIQUE_VISITS)
 
 ## Communication
-
----
 
 With respect to communication, I operate by [^crocker]
 
@@ -62,8 +56,6 @@ A Roasting Of My Profile
 </details>
 
 ## Repositories
-
----
 
 At the moment, the following are repositories I am devoting time to (these may be in their early stages of development; these may include repositories already included in my pinned repositories):
 

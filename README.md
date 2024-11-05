@@ -1,8 +1,10 @@
 ## Aesthetics
 
-![cover](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/unidentified.jpg)
+![View Of The Monument To Peter I On The Senate Square In St. Petersburg, Vasily Ivanovich Surikov (1848-1916)](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/View_Of_The_Monument_To_Peter_I_On_The_Senate_Square_In_St_Petersburg_1870_Oil_On_Canvas_Realism.jpg)
 
-I am very much motivationally uplifted by looking at beautiful works of art; as such, I include them in my profile, which I've bookmarked on FireFox and which is a place I head to often. That this picture is the first object seen on my profile is by design. I rotate artworks not more than twice monthly.
+_An 1870 oil on canvas [painting](https://culturical.com/view-of-the-monument-to-peter-i-on-senate-square-in-st-petersburg/) called_ View Of The Monument To Peter I On The Senate Square In St. Petersburg _by Vasily Ivanovich Surikov (1848-1916)_.
+
+I am greatly uplifted, motivationally, by looking at beautiful works of art; as such, I include them in my profile, which I've bookmarked on FireFox and which is a place I head to often. That this picture is the first object seen on my profile is by design. I rotate artworks not more than twice monthly.
 
 ## Context
 
@@ -74,10 +76,10 @@ Repositories
 
 ## Varia
 
-<details>
+<details markdown=1>
 
 <summary>
-_Some Quotes_
+Some Quotes
 </summary>
 
 > _Organisms are born; man is made._
@@ -98,8 +100,22 @@ _Some Quotes_
 
 </details>
 
+
+<details markdown=1>
+
+<summary>
 Some Selected Wisdom
+</summary>
+
+_From_ The Art Of Worldly Wisdom _Baltasar Gracian, 1653; translated by Joseph Jacobs, 1892_.
 
 
 
-_Some Documents I Appreciate_
+</details>
+
+<!--
+Some documents I appreciate
+such as the Universal Declaration
+Of Human Rights can be added
+in the future.
+-->

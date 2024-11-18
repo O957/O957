@@ -8,7 +8,7 @@ I am greatly uplifted, motivationally speaking, by looking at beautiful works of
 
 # Context
 
-I consider myself an average _data scientist_.
+I consider myself a _data scientist_.
 
 > _Data Scientist: Person who is better at statistics than any software engineer and better software engineering than any statistician._
 >

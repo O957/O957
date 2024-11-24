@@ -12,7 +12,7 @@ That artwork is the first visage I encounter upon visiting GitHub is by design â
 
 # Context
 
-I consider myself an average _data scientist_.
+I consider myself a _data scientist_.
 
 > _Data Scientist: Person who is better at statistics than any software engineer and better software engineering than any statistician._
 >

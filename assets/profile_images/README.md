@@ -13,3 +13,9 @@ _An oil on canvas [painting](https://www.artnet.com/artists/baron-jean-antoine-t
 _An 1837 oil on canvas [painting](https://arthive.com/artists/713~Nikanor_Grigorievich_Chernetsov/works/487388~View_Of_Nizhny_Novgorod_1837) called_ View Of Nizhny Novgorod _by Nikanor Grigorievich Chernetsov_.
 
 _An 1870 oil on canvas [painting](https://culturical.com/view-of-the-monument-to-peter-i-on-senate-square-in-st-petersburg/) called_ View Of The Monument To Peter I On The Senate Square In St. Petersburg _by Vasily Ivanovich Surikov (1848-1916)_.
+
+
+
+![View Of The Monument To Peter I On The Senate Square In St. Petersburg, Vasily Ivanovich Surikov (1848-1916)](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/View_Of_The_Monument_To_Peter_I_On_The_Senate_Square_In_St_Petersburg_1870_Oil_On_Canvas_Realism.jpg)
+
+_An 1870 oil on canvas [painting](https://culturical.com/view-of-the-monument-to-peter-i-on-senate-square-in-st-petersburg/) called_ View Of The Monument To Peter I On The Senate Square In St. Petersburg _by Vasily Ivanovich Surikov (1848-1916)_.

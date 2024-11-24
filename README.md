@@ -1,10 +1,14 @@
 <!-- ## Aesthetics -->
 
-![View Of The Monument To Peter I On The Senate Square In St. Petersburg, Vasily Ivanovich Surikov (1848-1916)](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/View_Of_The_Monument_To_Peter_I_On_The_Senate_Square_In_St_Petersburg_1870_Oil_On_Canvas_Realism.jpg)
 
-_An 1870 oil on canvas [painting](https://culturical.com/view-of-the-monument-to-peter-i-on-senate-square-in-st-petersburg/) called_ View Of The Monument To Peter I On The Senate Square In St. Petersburg _by Vasily Ivanovich Surikov (1848-1916)_.
 
-I am greatly uplifted, motivationally speaking, by looking at beautiful works of art; as such, I include such works in my profile, since I use my profile as my entry point to GitHub. That artwork is the first visage I encounter upon visiting GitHub is by design. I rotate artworks not more than twice monthly.
+![Aurora Borealis, Frederic Edwin Church (1826–1900)](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/Aurora_Borealis_Frederic_Edwin_Church_1865_Oil_On_Canvas_Romanticism.jpg)
+
+
+_An 1865 oil on canvas [painting](https://en.wikipedia.org/wiki/Aurora_Borealis_(painting)) called_ Aurora Borealis _by [Frederic Edwin Church](https://en.wikipedia.org/wiki/Frederic_Edwin_Church) (1826–1900)_.
+
+
+That artwork is the first visage I encounter upon visiting GitHub is by design — I very much am motivated beautiful works of art. I rotate artworks not more than twice monthly.
 
 # Context
 

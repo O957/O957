@@ -10,7 +10,7 @@ _An 1865 oil on canvas [painting](https://en.wikipedia.org/wiki/Aurora_Borealis_
 
 That artwork is the first visage I encounter upon visiting GitHub is by design — I very much am motivated beautiful works of art. I rotate artworks not more than twice monthly.
 
-# Context
+<!-- # Context
 
 I consider myself a _data scientist_.
 
@@ -59,7 +59,7 @@ A Roasting Of My Profile
 > Your readme looks more like an art critique than a professional introduction. Maybe instead of allocating your time to creating personal templates that even you can’t be bothered to star, you could take a moment to autocorrect your ambition into something a little less… unfocused?
 >
 > But hey, kudos for the “good health” wishes at the end—because clearly, you have plenty of time to ponder life choices while your code sits idle. Here’s hoping your next repo has as much personality as the artwork you’re so proud of.
-</details>
+</details> -->
 
 # Repositories
 
@@ -78,7 +78,7 @@ Repositories
 </details>
 
 
-# Varia
+<!-- # Varia
 
 <details markdown=1>
 
@@ -262,7 +262,7 @@ From _The Art Of Worldly Wisdom_ (1653) by Baltasar Gracian; translated (1892) b
 
 
 
-</details>
+</details>-->
 
 <!--
 Some documents I appreciate

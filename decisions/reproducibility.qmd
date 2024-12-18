@@ -1,0 +1,6 @@
+---
+title: Notes On Replication
+format: gfm
+---
+
+_This document contains the author's preferences and procedures regarding replication of academic and other works. The author's notes that facilitated the development of these preferences and procedures are included._

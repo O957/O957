@@ -7,10 +7,93 @@
 
 _An 1865 oil on canvas [painting](https://en.wikipedia.org/wiki/Aurora_Borealis_(painting)) called_ Aurora Borealis _by [Frederic Edwin Church](https://en.wikipedia.org/wiki/Frederic_Edwin_Church) (1826–1900)_.
 
+That artwork is the first visage I encounter upon visiting GitHub is by design — I very much am motivated by beautiful works of art. I rotate artworks not more than twice monthly.
 
-That artwork is the first visage I encounter upon visiting GitHub is by design — I very much am motivated beautiful works of art. I rotate artworks not more than twice monthly.
 
-# Context
+# Repositories
+
+Find below repositories I am devoting some time to (note: these may be in their early stages of development; also, these may overlap with my pinned repositories):
+
+<details markdown=1>
+<summary>
+Repositories
+</summary>
+
+| Repository &emsp;| Description |
+|:---|:---|
+| [`paleo-utils`](https://github.com/AFg6K7h4fhy2/Paleo-Utils) | Tools for the author to facilitate various tasks in paleontological work, including specimen labels, systematics organization, measurement grids, and imaging utilities.  |
+| [`genetic-evolution-tournament`](https://github.com/AFg6K7h4fhy2/Genetic-Evolution-Tournament) | The Genetic Evolution Tournament (GET) is a Metaculus human judgment forecasting tournament that aims to generate forecasts and scenario regarding the use of DNA and reproductive technologies on humans for treatment and enhancement.  |
+| [`forecasttools-py`](https://github.com/CDCgov/forecasttools-py) | A Python package for common pre- and post-processing operations done by CFA Predict for short term forecasting, nowcasting, and scenario modeling.  |
+</details>
+
+<!-- # Lightweight Packages
+
+Paleo-Utils
+Metaculus-Utils
+String-Art
+
+# Research Reproductions
+
+Re-TDWMC-2024
+
+# Work Repositories
+
+Genetic-Evolution-Tournament
+
+# Lists, Resources, and Anki
+
+GCR-CD-CS-Models
+Anki-GCR-CD-CS
+Equations To Remember
+
+# Data Visualizations
+
+Concealed Carry NJ & NY Visualizations
+Crime In US Cities
+IVF Newborns
+Police Infractions / Civil Forfeiture
+
+# How I Can Help Others
+
+# How Others Can Help Me
+
+# My Standards & Behavioral Algorithms
+
+VS-Code Fonts: Courier New & Iosevka
+
+# Users I'd Want To Converse With Casually
+
+# Users I Want To Have Review My Work
+
+# Cool Repositories I've Contributed To
+
+# Sayings, Quotes, And Things To Ponder
+
+Remember To Drink Some Water
+"You deserve what you tolerate."
+"The Industrial Revolution and its consequences have been a disaster for the human race."
+Cognitive Biases In Software
+Most people are deficient in Magnesium.
+Most indoor spaces are lacking oxygen.
+Golden Principle
+Tower Of Babel
+Klatu baarada nikto
+
+# Books I've Read And My Reviews
+
+# Wishes For The Future
+
+# Things I Do Not Like
+
+# Things I Like
+
+# Things To Be Done Post-AGI
+
+(that which you want to do if it were not automated) -->
+
+
+
+<!-- # Context
 
 I consider myself a _data scientist_.
 
@@ -59,26 +142,12 @@ A Roasting Of My Profile
 > Your readme looks more like an art critique than a professional introduction. Maybe instead of allocating your time to creating personal templates that even you can’t be bothered to star, you could take a moment to autocorrect your ambition into something a little less… unfocused?
 >
 > But hey, kudos for the “good health” wishes at the end—because clearly, you have plenty of time to ponder life choices while your code sits idle. Here’s hoping your next repo has as much personality as the artwork you’re so proud of.
-</details>
-
-# Repositories
-
-Find below repositories I am devoting some time to (note: these may be in their early stages of development; also, these may overlap with my pinned repositories):
-
-<details markdown=1>
-<summary>
-Repositories
-</summary>
-
-| Repository &emsp;| Description |
-|:---|:---|
-| [`paleo-utils`](https://github.com/AFg6K7h4fhy2/Paleo-Utils) | Tools for the author to facilitate various tasks in paleontological work, including specimen labels, systematics organization, measurement grids, and imaging utilities.  |
-| [`genetic-evolution-tournament`](https://github.com/AFg6K7h4fhy2/Genetic-Evolution-Tournament) | The Genetic Evolution Tournament (GET) is a Metaculus human judgment forecasting tournament that aims to generate forecasts and scenario regarding the use of DNA and reproductive technologies on humans for treatment and enhancement.  |
-| [`forecasttools-py`](https://github.com/CDCgov/forecasttools-py) | A Python package for common pre- and post-processing operations done by CFA Predict for short term forecasting, nowcasting, and scenario modeling.  |
-</details>
+</details> -->
 
 
-# Varia
+
+
+<!-- # Varia
 
 <details markdown=1>
 
@@ -262,7 +331,7 @@ From _The Art Of Worldly Wisdom_ (1653) by Baltasar Gracian; translated (1892) b
 
 
 
-</details>
+</details> -->
 
 <!--
 Some documents I appreciate

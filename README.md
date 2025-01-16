@@ -1,11 +1,14 @@
 <!-- ## Aesthetics -->
 
 
+![View Of The Ancient Aqueduct And Fountains Situated Near The Chiavica del Bufalo In Rome,  Luigi Rossini, 1822](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/View_Of_The_Ancient_Aquaduct_And_Fountains_Situated_Near_The_Chiavica_del_Bufalo_In_Rome.jpg)
 
-![Aurora Borealis, Frederic Edwin Church (1826–1900)](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/Aurora_Borealis_Frederic_Edwin_Church_1865_Oil_On_Canvas_Romanticism.jpg)
+_An 1822 etching called_ [View Of The Ancient Aqueduct And Fountains Situated Near The Chiavica del Bufalo In Rome](https://www.metmuseum.org/art/collection/search/400234) _by Italian artist Luigi Rossini (1790–1857)._
+
+<!-- ![Aurora Borealis, Frederic Edwin Church (1826–1900)](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/assets/profile_images/Aurora_Borealis_Frederic_Edwin_Church_1865_Oil_On_Canvas_Romanticism.jpg)
 
 
-_An 1865 oil on canvas [painting](https://en.wikipedia.org/wiki/Aurora_Borealis_(painting)) called_ Aurora Borealis _by [Frederic Edwin Church](https://en.wikipedia.org/wiki/Frederic_Edwin_Church) (1826–1900)_.
+_An 1865 oil on canvas [painting](https://en.wikipedia.org/wiki/Aurora_Borealis_(painting)) called_ Aurora Borealis _by [Frederic Edwin Church](https://en.wikipedia.org/wiki/Frederic_Edwin_Church) (1826–1900)_. -->
 
 That artwork is the first visage I encounter upon visiting GitHub is by design — I very much am motivated by beautiful works of art. I rotate artworks not more than twice monthly.
 

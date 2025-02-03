@@ -24,6 +24,7 @@ The following are sections that the author has considered having in their profil
 * Models Built: Details models that the author has built across his work.
 * 20XX Predictions: The author's predictions for the year 20XX.
 * Figures I Respect: Details people that the author wishes to emulate in some capacity.
+* Preferences: Details what the author prefers and or how the author tends to operate.
 
 Other considerations:
 

@@ -38,6 +38,11 @@ color = "cfd3d7"
 name = "compliance"
 description = "Must adhere to an external ruleset."
 
+[conditional]
+color = "cfd3d7"
+name = "conditional"
+description = "This task depends on another task or on a critical, yet unmade decision."
+
 [data]
 color = "cfd3d7"
 name = "data"
@@ -117,6 +122,11 @@ description = "Changes that make something more reproducible."
 color = "cfd3d7"
 name = "resources"
 description = "Useful reference material(s)."
+
+[science]
+color = "cfd3d7"
+name = "science"
+description = "Involves research, experiments, and or scientific methods."
 
 [scope]
 color = "cfd3d7"

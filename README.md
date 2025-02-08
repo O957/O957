@@ -7,7 +7,7 @@ That artwork is the first visage the author encounter's upon visiting GitHub is 
 
 ## Enterprises
 
-_Those projects that the author is currently working on or intends, in the near-term future, to working on._
+_Those projects that the author is currently working on or intends, in the near-term future, to further._
 
 <details markdown=1>
 <summary>
@@ -37,6 +37,8 @@ Click To Expand
 
 
 ## Preferences
+
+_An amalgam of remarks pertaining to the author's preferences, for others to use in their judgment-making of the author._
 
 <details markdown=1>
 

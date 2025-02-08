@@ -3,18 +3,16 @@
 
 _An 1850 [painting](https://useum.org/artwork/Scene-from-the-Era-of-Norwegian-Sagas-Knud-Baade-1850) called_ Scene From The Era Of Norwegian Sagas _by [Knud Baade](https://en.wikipedia.org/wiki/Knud_Baade) (28 March 1808 – 24 November 1879)_.
 
-That artwork is the first visage the author encounter's upon visiting GitHub is by design — the author, very much so, finds beautiful works of art motivating. The scarcity of such art in day-to-day digital existence need not be tolerated. The author rotate artworks not more than twice monthly.
+That artwork is the first visage the author encounter's upon visiting GitHub is by design — the author, very much so, finds beautiful works of art motivating. The scarcity of such art in day-to-day digital existence need not be tolerated. The author rotates artworks not more than twice monthly.
 
 ## Enterprises
 
-_Those projects that the author is currently working on or intends, in the near-term future, to working on._
+_Those projects that the author is currently working on or intends, in the near-term future, to further._
 
 <details markdown=1>
 <summary>
 Click To Expand
 </summary>
-
-NOTE:
 
 * These are not in any particular priority order.
 * Some of the repositories list are private (those lacking links).
@@ -39,6 +37,8 @@ NOTE:
 
 
 ## Preferences
+
+_An amalgam of remarks pertaining to the author's preferences, for others to use in their judgment-making of the author._
 
 <details markdown=1>
 
@@ -68,21 +68,19 @@ _In this repository, the reader will find some items that the author has accumul
 <details markdown=1>
 
 <summary>
-This Repository: Click To Expand
+Click To Expand
 </summary>
 
 The constituent folders of this repository are:
 
+* `decisions`: Files that contain considerations on decisions that the author is interested in making and the decisions themselves. The author enjoys standardizing elements of life that are repeated frequently and the process of writing these decisions files has aided with this. Most of the decisions concern the author's programming practices.
+* `examples`: External examples for reference of actions or decisions that the author is considering doing or making, respectively.
 * `notes`: Notes that the author has taken and wishes to display publicly. These notes will oftentimes coincide with different resources stored in `./resources`.
 * `profile`: Images, including artwork and those the author has taken, that the author is using, has used, or intends to use, at some point, on his main README profile.
 * `resources`: Resources, including research papers and books, among other things, that the author wishes to store and (possibly) document publicly. Contained therein:
-  * `books`
-  * `links`
-  * `papers`
 
 Within each meaningful folder, the reader should find a README (these are under development, somewhat), which exist to aid the reader in navigating this repository, should doing so be something of interest.
 
 </details>
 
-
-The author wishes everyone a nice day!
+The author wishes many of you the best with your health and goals.

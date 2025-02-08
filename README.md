@@ -71,12 +71,11 @@ Click To Expand
 
 The constituent folders of this repository are:
 
+* `decisions`: Files that contain considerations on decisions that the author is interested in making and the decisions themselves. The author enjoys standardizing elements of life that are repeated frequently and the process of writing these decisions files has aided with this. Most of the decisions concern the author's programming practices.
+* `examples`: External examples for reference of actions or decisions that the author is considering doing or making, respectively.
 * `notes`: Notes that the author has taken and wishes to display publicly. These notes will oftentimes coincide with different resources stored in `./resources`.
 * `profile`: Images, including artwork and those the author has taken, that the author is using, has used, or intends to use, at some point, on his main README profile.
 * `resources`: Resources, including research papers and books, among other things, that the author wishes to store and (possibly) document publicly. Contained therein:
-  * `books`
-  * `links`
-  * `papers`
 
 Within each meaningful folder, the reader should find a README (these are under development, somewhat), which exist to aid the reader in navigating this repository, should doing so be something of interest.
 

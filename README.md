@@ -3,7 +3,7 @@
 
 _An 1850 [painting](https://useum.org/artwork/Scene-from-the-Era-of-Norwegian-Sagas-Knud-Baade-1850) called_ Scene From The Era Of Norwegian Sagas _by [Knud Baade](https://en.wikipedia.org/wiki/Knud_Baade) (28 March 1808 – 24 November 1879)_.
 
-That artwork is the first visage the author encounter's upon visiting GitHub is by design — the author, very much so, finds beautiful works of art motivating. The scarcity of such art in day-to-day digital existence need not be tolerated. The author rotate artworks not more than twice monthly.
+That artwork is the first visage the author encounter's upon visiting GitHub is by design — the author, very much so, finds beautiful works of art motivating. The scarcity of such art in day-to-day digital existence need not be tolerated. The author rotates artworks not more than twice monthly.
 
 ## Enterprises
 
@@ -68,7 +68,7 @@ _In this repository, the reader will find some items that the author has accumul
 <details markdown=1>
 
 <summary>
-This Repository: Click To Expand
+Click To Expand
 </summary>
 
 The constituent folders of this repository are:

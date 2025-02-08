@@ -83,4 +83,11 @@ Within each meaningful folder, the reader should find a README (these are under 
 
 </details>
 
+## Contact
+
+One can contact the author via:
+
+* [Making an issue on this repository](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/issues) (use when giving feedback).
+* Email: [AFg6K7h4fhy2-H]+[at-symbol]+[p]+[roton]+[dot-symbol]+[me].
+
 The author wishes many of you the best with your health and goals.

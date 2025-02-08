@@ -14,8 +14,6 @@ _Those projects that the author is currently working on or intends, in the near-
 Click To Expand
 </summary>
 
-NOTE:
-
 * These are not in any particular priority order.
 * Some of the repositories list are private (those lacking links).
 * Many of the personal repositories listed are in early development.
@@ -84,5 +82,4 @@ Within each meaningful folder, the reader should find a README (these are under 
 
 </details>
 
-
-The author wishes everyone a nice day!
+The author wishes many of you the best with your health and goals.

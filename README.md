@@ -1,7 +1,11 @@
 
-![Scene_From_The_Era_Of_Norwegian_Sagas_by_Knud_Baade_1850.jpg](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/profile/Scene_From_The_Era_Of_Norwegian_Sagas_by_Knud_Baade_1850.jpg)
 
-_An 1850 [painting](https://useum.org/artwork/Scene-from-the-Era-of-Norwegian-Sagas-Knud-Baade-1850) called_ Scene From The Era Of Norwegian Sagas _by [Knud Baade](https://en.wikipedia.org/wiki/Knud_Baade) (28 March 1808 – 24 November 1879)_.
+
+
+![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910.jpg)
+
+
+_A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called_ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946)_.
 
 That artwork is the first visage the author encounter's upon visiting GitHub is by design — the author, very much so, finds beautiful works of art motivating. The scarcity of such art in day-to-day digital existence need not be tolerated. The author rotates artworks not more than twice monthly.
 

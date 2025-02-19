@@ -5,6 +5,13 @@ _This document contains images (with paths modified) historically displayed on t
 NOTE: The naming scheme for the artworks is "Title in snake case with first letters capitalized" + "created by person" + "year created" + "medium" + "art style" (when each element is known).
 
 
+![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910.jpg)
+
+
+_A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called_ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946)_.
+
+
+---
 
 ![Scene_From_The_Era_Of_Norwegian_Sagas_by_Knud_Baade_1850.jpg](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/profile/Scene_From_The_Era_Of_Norwegian_Sagas_by_Knud_Baade_1850.jpg)
 

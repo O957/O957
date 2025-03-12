@@ -20,4 +20,39 @@ Since there are conceivably sections within top-level `README`s that are repeate
 
 If there are sections which do not apply to a given repository, then the author can simply remove them in Prepare Repository For Production issue.
 
-These sections and their descriptions in the template top-level `README` should probably be accompanied by an opening clause declaring that the contents below belong to a template `README`, lest the author
+These sections and their descriptions in the template top-level `README` should probably be accompanied by an opening clause declaring that the contents below belong to a template `README` to prevent any confusion on the state of the repository.
+
+* Overview
+* Table of Contents
+* Installation / Setup
+* What
+* Why
+* How
+* Methodology
+* Why Use This?
+* Why Is this Needed?
+* Data
+* Replication
+* Examples
+* Configuration
+* Customization
+* Repository Structure
+* Results
+* Dependencies
+* API Reference
+* Acknowledgement
+* Roadmap
+* Future Work
+* Features
+* Installation
+* Quick Start
+* Usage Guide
+* Supported Databases
+* Configuration
+* Dependencies
+* Contributing
+* License
+* Acknowledgements
+* FAQ
+* Contact
+* Citation

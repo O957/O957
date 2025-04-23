@@ -1,4 +1,4 @@
-# Preparing Repository for Production
+# Preparing Repository For Production
 
 _This document contains the contents of a common issue that the author makes on his repositories called Prepare Repository For Production._
 

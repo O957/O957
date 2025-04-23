@@ -1,10 +1,10 @@
 # Preparing Repository for Production
 
-_This document contains the contents of a common issue that the author makes on his repositories call Prepare Repository For Production._
+_This document contains the contents of a common issue that the author makes on his repositories called Prepare Repository For Production._
 
 This issue covers the following:
 
-* Proper `pyproject.toml` edits.
+* Proper `poetry` file `pyproject.toml` exists:
   * `name`
   * `version`
   * `description`
@@ -15,33 +15,43 @@ This issue covers the following:
   * `keywords`
   * Dependencies groups.
   * URLs (`[tool.poetry.urls]`).
-* Updated `CONTRIBUTING` file.
+* (possible) Dependabot enabled.
+  * Fork <https://github.com/dependabot/demo>.
+  * Select current repository.
+  * Go to Advanced Security in Security in Settings.
+  * Enable the bot.
+* Proper `CONTRIBUTING` file.
 * MVP `README`.
-* Labels being synched.
+  * Title of repositories.
+  * Description from GitHub.
+  * Note of Work In Progress.
+* Labels being synched (see end).
 * Milestones created.
+  * Backlog: Backlog of issues and PRs that have no due date.
 * Issues and PRs labeled and milestoned.
-* (possible) presence of paper in assets.
-* Presence of `repo-notes.md` in `assets/misc`.
-* Presence of `dev-notes.md` in `assets/misc`.
-* (possible) presence of `mypy.ini` file if Python.
-* (possible) presence of `lintr` file if R.
-* Correct tagging on GitHub.
-* Correct description on GitHub.
-* Ensure `poetry.lock` is not tracked.
-* Updated `pre-commit` workflow.
-* Updated `pre-commit-config` file.
-* Updated `_typos.toml`.
-* Updated `.gitignore`.
+* (possible) Presence of paper in assets.
+* (possible) Presence of `repo-notes.md` in `assets/misc`.
+* (possible) Presence of `dev-notes.md` in `assets/misc`.
+* (possible) presence of `mypy.ini` file, if using Python.
+* (possible) presence of `lintr` file, if using R.
+* Between 2-5 tags on GitHub.
+* Description on GitHub.
+* If `poetry`, ensure `poetry.lock` is not tracked.
+* Proper `pre-commit` workflow.
+* Proper `pre-commit-config` file.
+* Proper `_typos.toml`.
+* Proper `.gitignore`.
 * Blank issue in `ISSUE_TEMPLATE`.
 * Branch protections to `main`.
-  * Require a pull request before merging & (Require approvals & Require review from Code Owners)
-  * Require status checks to pass before merging
-  * Require conversation resolution before merging
-* Updated `CODEOWNERS`.
-* If "work" repository, proper Statements.
-* Correct `LICENSE`.
-* Choices for Discussions, Wiki, and Sponsorships.
-* Python environment change to Python 3.12.5
+  * Require a pull request before merging & (Require approvals & Require review from Code Owners).
+  * Require status checks to pass before merging.
+  * Require conversation resolution before merging.
+* Proper `CODEOWNERS`.
+* If CDC repository, proper Statements.
+* Proper `LICENSE`.
+* No Discussions or Wiki enabled.
+* (possible) Sponsorships enable.
+* Python environment change to Python 3.13
 
 For the label synching:
 

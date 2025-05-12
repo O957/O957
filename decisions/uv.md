@@ -72,10 +72,38 @@ poetry export \
   --output=requirements.txt
 ```
 
+* Create a `project` section in the `pyproject` file (see standard below)
+  * If a section is not made, then the error when you run the next command might look like: "No `project` table found in ...".
+
+<details markdown=1>
+
+<summary> Standard Pyproject Project Table </summary>
+
+
+```yaml
+[project]
+name = ""
+version = ""
+authors = [
+  {name = "", email = ""},
+]
+description = ""
+readme = ""
+license = ""
+keywords = [""]
+
+[project.urls]
+Repository = ""
+Issues = ""
+"Author GitHub" = ""
+```
+
+</details>
+
 * Ensure the `requirements.txt` file has the dependencies of interest before running:
 
 ```
-uv upload --requirements requirements.txt
+uv add --r requirements.txt
 ```
 
 

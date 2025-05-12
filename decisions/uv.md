@@ -48,6 +48,7 @@ Useful Links:
 * Scripting Setup & Running: <https://docs.astral.sh/uv/guides/scripts/>
 * Tooling: <https://docs.astral.sh/uv/guides/tools/>
 * Notes On Using Precommit: <https://docs.astral.sh/uv/guides/integration/pre-commit/>
+* Packaging: <https://docs.astral.sh/uv/guides/package/>
 
 Porting Over From UV To Poetry:
 
@@ -120,9 +121,46 @@ build-backend = "poetry.core.masonry.api"
 uv add --requirements requirements.txt
 ```
 
+* Run `uv lock`.
+* Add the following to the `.pre-commit-config.yaml` file, if there is one:
+
+```yaml
+repos:
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    # uv version.
+    rev: 0.7.3
+    hooks:
+      - id: uv-lock
+```
+
+* Don't delete the `requirements.txt` file, since other Python users might still want to use this; if you agree, add the following to the `.pre-commit-config.yaml` file:
 
 
+```yaml
+repos:
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    # uv version.
+    rev: 0.7.3
+    hooks:
+      - id: uv-export
+repos:
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    # uv version.
+    rev: 0.7.3
+    hooks:
+      # Compile requirements
+      - id: pip-compile
+        args: [requirements.in, -o, requirements.txt, --without-hashes]
+```
 
+Some UV Basics:
+
+* Create a `venv`:
+* Activate the `venv`:
+* Deactivate the `venv`:
+* Add a package:
+* Remove a package:
+* Update state of dependencies after adding or removing packages:
 
 <details markdown=1>
 

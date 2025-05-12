@@ -92,6 +92,7 @@ description = ""
 readme = ""
 license = ""
 keywords = [""]
+requires-python = ">=3.13"
 
 [project.urls]
 Repository = ""
@@ -104,8 +105,15 @@ Issues = ""
 * Remove items with `poetry` in the header:
   * `tool.poetry.dependencies`
   * `tool.poetry.group.dev.dependencies`
-* Run `uv init .`.
-* Create `uv` project.
+  * This includes:
+
+```yaml
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+```
+
+* Delete `poetry.lock` file.
 * Ensure the `requirements.txt` file has the dependencies of interest before running:
 
 ```

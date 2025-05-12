@@ -103,7 +103,7 @@ Issues = ""
 * Ensure the `requirements.txt` file has the dependencies of interest before running:
 
 ```
-uv add --r requirements.txt
+uv add --requirements requirements.txt
 ```
 
 

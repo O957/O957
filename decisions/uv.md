@@ -101,8 +101,10 @@ Issues = ""
 
 </details>
 
-
-* Remove `poetry` items.
+* Remove items with `poetry` in the header:
+  * `tool.poetry.dependencies`
+  * `tool.poetry.group.dev.dependencies`
+* Run `uv init .`.
 * Create `uv` project.
 * Ensure the `requirements.txt` file has the dependencies of interest before running:
 

@@ -14,13 +14,6 @@ Repository = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2"
 Issues = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/issues"
 "Author GitHub" = "https://github.com/AFg6K7h4fhy2/"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-pre-commit = "^3.7.0"
-
-[tool.poetry.group.dev.dependencies]
-pygments = "^2.18.0"
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

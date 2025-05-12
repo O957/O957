@@ -17,6 +17,7 @@ dependencies = [
     "identify==2.6.1 ; python_full_version >= '3.12' and python_full_version < '4.0'",
     "nodeenv==1.9.1 ; python_full_version >= '3.12' and python_full_version < '4.0'",
     "platformdirs==4.3.6 ; python_full_version >= '3.12' and python_full_version < '4.0'",
+    "polars>=1.29.0",
     "pre-commit==3.8.0 ; python_full_version >= '3.12' and python_full_version < '4.0'",
     "pygments==2.18.0 ; python_full_version >= '3.12' and python_full_version < '4.0'",
     "pyyaml==6.0.2 ; python_full_version >= '3.12' and python_full_version < '4.0'",

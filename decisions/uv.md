@@ -39,6 +39,8 @@ Description:
 > * ⏬ Installable without Rust or Python via curl or pip.
 > * 🖥️ Supports macOS, Linux, and Windows.
 
+Given speed upgrade and centralization of capabilities, I've decided (2025-05-12) that I will use `uv` over `poetry` for Python package and project management.
+
 Useful Links:
 
 * Project Setup & Structure: <https://docs.astral.sh/uv/guides/projects/>
@@ -46,7 +48,36 @@ Useful Links:
 * Tooling: <https://docs.astral.sh/uv/guides/tools/>
 * Notes On Using Precommit: <https://docs.astral.sh/uv/guides/integration/pre-commit/>
 
-In a project with `poetry`,
+
+
+<details markdown=1>
+
+<summary> Example Pyproject File </summary>
+
+```yaml
+[tool.poetry]
+name = "afg6k7h4fhy2"
+version = "0.0.1"
+description = "The author's personal GitHub profile. Contained therein are some resources the author makes use of and decisions that the author has made concerning his use of GitHub. This repository also exists as a place for onlookers to provide the author with feedback. "
+authors = ["AFg6K7h4fhy2 <127630341+AFg6K7h4fhy2@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pre-commit = "^3.7.0"
+
+[tool.poetry.group.dev.dependencies]
+pygments = "^2.18.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+```
+
+</details>
+
 
 
 Tasks related to the issue "Prepare Repository for production:

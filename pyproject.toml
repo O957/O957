@@ -1,11 +1,18 @@
-[tool.poetry]
+[project]
 name = "afg6k7h4fhy2"
 version = "0.0.1"
-description = "The author's personal GitHub profile. Contained therein are some resources the author makes use of and decisions that the author has made concerning his use of GitHub. This repository also exists as a place for onlookers to provide the author with feedback. "
-authors = ["AFg6K7h4fhy2 <127630341+AFg6K7h4fhy2@users.noreply.github.com>"]
-license = "Apache-2.0"
+authors = [
+  {name = "AFg6K7h4fhy2", email = "127630341+AFg6K7h4fhy2@users.noreply.github.com"},
+]
+description = "The author's personal GitHub profile. Contained therein are some resources the author makes use of and decisions that the author has made concerning his use of GitHub. This repository also exists as a place for onlookers to provide the author with feedback."
 readme = "README.md"
-package-mode = false
+license = "Apache-2.0"
+keywords = ["personal"]
+
+[project.urls]
+Repository = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2"
+Issues = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/issues"
+"Author GitHub" = "https://github.com/AFg6K7h4fhy2/"
 
 [tool.poetry.dependencies]
 python = "^3.12"

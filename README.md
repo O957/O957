@@ -1,7 +1,4 @@
 
-
-
-
 ![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910.jpg)
 
 

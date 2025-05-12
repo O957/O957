@@ -115,6 +115,7 @@ build-backend = "poetry.core.masonry.api"
 ```
 
 * Delete `poetry.lock` file.
+* Add a file called `.python-version` with the number (e.g. 3.13) you want.
 * Ensure the `requirements.txt` file has the dependencies of interest before running:
 
 ```

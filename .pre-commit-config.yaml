@@ -127,19 +127,8 @@ repos:
     rev: 0.7.3
     hooks:
     -   id: uv-lock
--   repo: https://github.com/astral-sh/uv-pre-commit
-    # uv version.
-    rev: 0.7.3
-    hooks:
     -   id: uv-export
-        args: ["--no-hashes"]
--   repo: https://github.com/astral-sh/uv-pre-commit
-    # uv version.
-    rev: 0.7.3
-    hooks:
-    # Compile requirements
-    -   id: pip-compile
-        args: [requirements.in, -o, requirements.txt]
+        args: ["--no-hashes", "--output-file=requirements.txt"]
 ################################################################################
 # MAKE FILES
 ################################################################################

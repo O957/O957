@@ -49,6 +49,7 @@ Useful Links:
 * Tooling: <https://docs.astral.sh/uv/guides/tools/>
 * Notes On Using Precommit: <https://docs.astral.sh/uv/guides/integration/pre-commit/>
 * Packaging: <https://docs.astral.sh/uv/guides/package/>
+* Virtual Environments: <https://docs.astral.sh/uv/pip/environments/>
 
 Porting Over From UV To Poetry:
 
@@ -116,6 +117,7 @@ build-backend = "poetry.core.masonry.api"
 
 * Delete `poetry.lock` file.
 * Add a file called `.python-version` with the number (e.g. 3.13) you want.
+  * Run `uv python pin 3.13`.
 * Ensure the `requirements.txt` file has the dependencies of interest before running:
 
 ```
@@ -126,33 +128,24 @@ uv add --requirements requirements.txt
 * Add the following to the `.pre-commit-config.yaml` file, if there is one:
 
 ```yaml
-repos:
-  - repo: https://github.com/astral-sh/uv-pre-commit
+-   repo: https://github.com/astral-sh/uv-pre-commit
     # uv version.
     rev: 0.7.3
     hooks:
-      - id: uv-lock
+    -   id: uv-lock
 ```
 
 * Don't delete the `requirements.txt` file, since other Python users might still want to use this; if you agree, add the following to the `.pre-commit-config.yaml` file:
 
 
 ```yaml
-repos:
-  - repo: https://github.com/astral-sh/uv-pre-commit
-    # uv version.
-    rev: 0.7.3
-    hooks:
-      - id: uv-export
-repos:
-  - repo: https://github.com/astral-sh/uv-pre-commit
-    # uv version.
-    rev: 0.7.3
-    hooks:
-      # Compile requirements
-      - id: pip-compile
-        args: [requirements.in, -o, requirements.txt, --without-hashes]
+-   id: uv-export
+        args: ["--no-hashes", "--output-file=requirements.txt"]
 ```
+
+* Run `uv venv` to create virtual environment.
+  * Run `source .venv/bin/activate` to activate.
+  * Run `deactivate` to deactivate.
 
 Some UV Basics:
 

@@ -14,6 +14,7 @@ Kernel: arm64
 Architecture: 22.4.0
 CPU Brand: Apple M1
 Python Version: Python 3.13.1
+Poetry Version: Poetry (version 1.8.3)
 Ruby Version: ruby 3.2.3 (2024-01-18 revision 52bb2ac0a6) [arm64-darwin22]
 ```
 
@@ -47,6 +48,37 @@ Useful Links:
 * Scripting Setup & Running: <https://docs.astral.sh/uv/guides/scripts/>
 * Tooling: <https://docs.astral.sh/uv/guides/tools/>
 * Notes On Using Precommit: <https://docs.astral.sh/uv/guides/integration/pre-commit/>
+
+Porting Over From UV To Poetry:
+
+* Skip the next two steps if `poetry` is less than version 2.0.
+* Check to see if the following is in `pyproject.toml`; if the lines are not present[^more], add them:
+
+```yaml
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
+```
+
+[^more]: For more information on `poetry` plugins, see [here](https://python-poetry.org/docs/plugins/#using-plugins); for more information on the `export` command, see [here](https://python-poetry.org/docs/cli/#export).
+
+* Run `poetry install`.
+* Check the `pyproject.toml` file for different groups, such as `dev` and `test`; run the following command with the groups you want:
+
+```
+poetry export \
+  --format=requirements.txt \
+  --without-hashes \
+  --with dev,test \
+  --output=requirements.txt
+```
+
+* Ensure the `requirements.txt` file has the dependencies of interest before running:
+
+```
+uv upload --requirements requirements.txt
+```
+
+
 
 
 

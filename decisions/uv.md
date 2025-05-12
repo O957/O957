@@ -51,7 +51,8 @@ Useful Links:
 
 Porting Over From UV To Poetry:
 
-* Skip the next two steps if `poetry` is less than version 2.0.
+* Install `uv` (see above) and navigate to the target repository.
+* Skip the next two steps if the `poetry` version is less than version 2.0.
 * Check to see if the following is in `pyproject.toml`; if the lines are not present[^more], add them:
 
 ```yaml
@@ -100,6 +101,9 @@ Issues = ""
 
 </details>
 
+
+* Remove `poetry` items.
+* Create `uv` project.
 * Ensure the `requirements.txt` file has the dependencies of interest before running:
 
 ```

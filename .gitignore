@@ -484,7 +484,6 @@ TSWLatexianTemp*
 # MISCELLANEOUS
 ################################################################################
 
-poetry.lock
 /.quarto/
 _site
 /_site

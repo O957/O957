@@ -1,6 +1,6 @@
 # UV Python Package And Project Management
 
-_This document covers my usage of the Python package and project manager UV._
+_This document covers my usage of the Python package and project manager UV. Historically, I have used Poetry; however, I am transitioning towards using UV. Hence, this document also covers the transition from Poetry to UV._
 
 <details markdown=1>
 
@@ -20,13 +20,13 @@ Ruby Version: ruby 3.2.3 (2024-01-18 revision 52bb2ac0a6) [arm64-darwin22]
 
 </details>
 
-Installation, MacOS & Linux:
+Installation of UV, on MacOS & Linux:
 
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-Description:
+Description from [UV's website](https://docs.astral.sh/uv/):
 
 > * 🚀 A single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more.
 > * ⚡️ 10-100x faster than pip.
@@ -40,7 +40,7 @@ Description:
 > * ⏬ Installable without Rust or Python via curl or pip.
 > * 🖥️ Supports macOS, Linux, and Windows.
 
-Given speed upgrade and centralization of capabilities, I've decided (2025-05-12) that I will use `uv` over `poetry` for Python package and project management.
+Given the speed upgrade and centralization of capabilities, I've decided (2025-05-12) that I will use `uv` over `poetry` for Python package and project management.
 
 Useful Links:
 
@@ -53,9 +53,9 @@ Useful Links:
 
 Porting Over From UV To Poetry:
 
-* Install `uv` (see above) and navigate to the target repository.
-* Skip the next two steps if the `poetry` version is less than version 2.0.
-* Check to see if the following is in `pyproject.toml`; if the lines are not present[^more], add them:
+* Install `uv` (see above), if it's not already installed, and navigate to the target repository.
+* Skip the next sub-steps if the `poetry` version is less than version 2.0.
+  * Check to see if the following is in `pyproject.toml`; if the lines are not present[^more], add them:
 
 ```yaml
 [tool.poetry.requires-plugins]
@@ -64,7 +64,7 @@ poetry-plugin-export = ">=1.8"
 
 [^more]: For more information on `poetry` plugins, see [here](https://python-poetry.org/docs/plugins/#using-plugins); for more information on the `export` command, see [here](https://python-poetry.org/docs/cli/#export).
 
-* Run `poetry install`.
+  * Run `poetry install`.
 * Check the `pyproject.toml` file for different groups, such as `dev` and `test`; run the following command with the groups you want:
 
 ```
@@ -107,7 +107,7 @@ Issues = ""
 * Remove items with `poetry` in the header:
   * `tool.poetry.dependencies`
   * `tool.poetry.group.dev.dependencies`
-  * This includes:
+  * This includes removing:
 
 ```yaml
 [build-system]
@@ -115,8 +115,8 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 ```
 
-* Delete `poetry.lock` file.
-* Add a file called `.python-version` with the number (e.g. 3.13) you want.
+* Delete the `poetry.lock` file and remove it from the `.gitignore`.
+* Add a file called `.python-version` with the version (e.g. 3.13) you want.
   * Run `uv python pin 3.13`.
 * Ensure the `requirements.txt` file has the dependencies of interest before running:
 
@@ -125,7 +125,7 @@ uv add --requirements requirements.txt
 ```
 
 * Run `uv lock`.
-* Add the following to the `.pre-commit-config.yaml` file, if there is one:
+* Add the following to the `.pre-commit-config.yaml` file, if there is one and if not already present:
 
 ```yaml
 -   repo: https://github.com/astral-sh/uv-pre-commit
@@ -135,7 +135,7 @@ uv add --requirements requirements.txt
     -   id: uv-lock
 ```
 
-* Don't delete the `requirements.txt` file, since other Python users might still want to use this; if you agree, add the following to the `.pre-commit-config.yaml` file:
+* Don't delete the `requirements.txt` file, since other Python users might still want to use this; if you agree with the previous statement, add the following to the `.pre-commit-config.yaml` file:
 
 
 ```yaml
@@ -149,43 +149,12 @@ uv add --requirements requirements.txt
 
 Some UV Basics:
 
-* Create a `venv`:
-* Activate the `venv`:
-* Deactivate the `venv`:
-* Add a package:
-* Remove a package:
-* Update state of dependencies after adding or removing packages:
-
-<details markdown=1>
-
-<summary> Example Pyproject File </summary>
-
-```yaml
-[tool.poetry]
-name = "afg6k7h4fhy2"
-version = "0.0.1"
-description = "The author's personal GitHub profile. Contained therein are some resources the author makes use of and decisions that the author has made concerning his use of GitHub. This repository also exists as a place for onlookers to provide the author with feedback. "
-authors = ["AFg6K7h4fhy2 <127630341+AFg6K7h4fhy2@users.noreply.github.com>"]
-license = "MIT"
-readme = "README.md"
-package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.12"
-pre-commit = "^3.7.0"
-
-[tool.poetry.group.dev.dependencies]
-pygments = "^2.18.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-```
-
-</details>
-
-
-
-Tasks related to the issue "Prepare Repository for production:
-
-* Pin `uv` to appropriate Python version (`uv python pin 3.13`)
+* Create a `venv`: `uv venv`
+* Activate the `venv`: `source .venv/bin/activate`
+* Deactivate the `venv`: `deactivate`
+* Add a package: `uv add <package>` (being inside `venv` no necessary)
+* Remove a package: `uv remove <package>`
+* Update state of dependencies after package edit: `uv sync`
+* Check packages installed: `uv pip list`
+* Dependency graph: `uv tree`
+* Check the lock file: `uv lock --check`

@@ -102,6 +102,12 @@ Issues = ""
 "Author GitHub" = ""
 ```
 
+NOTE: For packages, add the following if you do not want it published to PyPI:
+
+```yaml
+classifiers = ["Private :: Do Not Upload"]
+```
+
 </details>
 
 * Remove items with `poetry` in the header:
@@ -158,3 +164,60 @@ Some UV Basics:
 * Check packages installed: `uv pip list`
 * Dependency graph: `uv tree`
 * Check the lock file: `uv lock --check`
+
+Full Poetry To UV Instructions:
+
+_The below are condensed and will not fully generalize, but are still useful._
+
+```
+poetry install
+
+poetry export \
+  --format=requirements.txt \
+  --without-hashes \
+  --with dev,test \
+  --output=requirements.txt
+
+(delete poetry items)
+
+uv python pin 3.13
+
+
+[project]
+name = ""
+version = ""
+authors = [
+  {name = "", email = ""},
+]
+description = ""
+readme = ""
+license = ""
+keywords = [""]
+requires-python = ">=3.13"
+classifiers = ["Private :: Do Not Upload"]
+
+[project.urls]
+Repository = ""
+Issues = ""
+"Author GitHub" = ""
+
+
+uv add --requirements requirements.txt
+
+################################################################################
+# UV PACKAGE AND DEPENDENCY MANAGEMENT
+################################################################################
+-   repo: https://github.com/astral-sh/uv-pre-commit
+    # uv version.
+    rev: 0.7.3
+    hooks:
+    -   id: uv-lock
+    -   id: uv-export
+        args: ["--no-hashes", "--output-file=requirements.txt"]
+
+uv lock
+
+uv venv
+
+uv sync
+```

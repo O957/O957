@@ -50,6 +50,7 @@ Useful Links:
 * Notes On Using Precommit: <https://docs.astral.sh/uv/guides/integration/pre-commit/>
 * Packaging: <https://docs.astral.sh/uv/guides/package/>
 * Virtual Environments: <https://docs.astral.sh/uv/pip/environments/>
+* CLI Reference: <https://docs.astral.sh/uv/reference/cli/>
 
 Porting Over From UV To Poetry:
 

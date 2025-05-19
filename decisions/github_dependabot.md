@@ -28,3 +28,5 @@ Some Relevant Links:
 
 * Dependabot Quickstart Guide: <https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide>
 * Working With Dependabot: <https://docs.github.com/en/code-security/dependabot/working-with-dependabot>
+* How Dependabot Empowers You To Keep Your Projects Secure: <https://github.blog/security/supply-chain-security/how-dependabot-empowers-you-to-keep-your-projects-secure/>
+* How To Use Dependabot For Automated Updates In 2025: <https://toxigon.com/how-to-use-dependabot-for-automated-updates>

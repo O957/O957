@@ -38,6 +38,7 @@ updates:
       interval: "weekly"
       day: "sunday"
       time: "10:00"
+      timezone: "America/Denver"
     reviewers:
       - "AFg6K7h4fhy2"
     assignees:
@@ -47,13 +48,15 @@ updates:
       separator: "-"
     labels:
       - "Automation"
-    # enable version updates for uv
+    # enable version updates for uv; wait until Dependabot adds uv support
+    # (tracked at dependabot/dependabot-core#10478)
   - package-ecosystem: "uv"
     directory: "/"
     schedule:
       interval: "weekly"
       day: "sunday"
       time: "10:00"
+      timezone: "America/Denver"
     reviewers:
       - "AFg6K7h4fhy2"
     assignees:

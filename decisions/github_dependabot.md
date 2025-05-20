@@ -23,6 +23,14 @@ Git Version: git version 2.40.0
 
 </details>
 
+Description from the quickstart guide:
+
+> Dependabot consists of three different features that help you manage your dependencies:
+>
+> * Dependabot alerts: Inform you about vulnerabilities in the dependencies that you use in your repository.
+> * Dependabot security updates: Automatically raise pull requests to update the dependencies you use that have known security vulnerabilities.
+> * Dependabot version updates: Automatically raise pull requests to keep your dependencies up-to-date.
+
 
 Some Relevant Links:
 
@@ -30,3 +38,5 @@ Some Relevant Links:
 * Working With Dependabot: <https://docs.github.com/en/code-security/dependabot/working-with-dependabot>
 * How Dependabot Empowers You To Keep Your Projects Secure: <https://github.blog/security/supply-chain-security/how-dependabot-empowers-you-to-keep-your-projects-secure/>
 * How To Use Dependabot For Automated Updates In 2025: <https://toxigon.com/how-to-use-dependabot-for-automated-updates>
+* Automating Dependabot With GitHub Actions: <https://docs.github.com/en/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions>
+* Dependabot Options Reference: <https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference>

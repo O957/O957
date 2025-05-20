@@ -135,3 +135,41 @@ updates:
 ```
 
 For the sake of using Dependabot, the current state of this decision file suffices, though there may be future updates (2025-05-20).
+
+* Since pull requests made by Dependabot fail `pre-commit`, the CI for `pre-commit` (see [here](https://pre-commit.ci/)) can be used to automatically fix the PRs; some benefits:
+
+> auto fixing pull requests: if tools make changes to files during a pull request, pre-commit.ci will automatically fix the pull request.
+> caching: tool caching is baked in and shared across all users. this means that the more users there are of pre-commit.ci, the more likely you will get faster builds!
+> automatic updates: pre-commit.ci will periodically autoupdate your configuration ensuring that your hook versions are kept up to date. this autoupdate is currently scheduled weekly at approximately 16:00 UTC Monday.
+
+Two notes:
+
+> re-running a pull request: you can trigger a re-run on a pull request by commenting pre-commit.ci run (must appear on a line by itself). alternatively, one can attach a pre-commit.ci run label to the pull request.
+> skipping push runs: skip a run by putting [skip ci], [ci skip], [skip pre-commit.ci], or [pre-commit.ci skip] in the commit message.
+
+```yaml
+###############################################################################
+# CONTINUOUS INTEGRATION
+###############################################################################
+ci:
+    # custom commit message for PR autofixes
+    autofix_commit_msg: |
+        [pre-commit.ci] auto fixes from pre-commit.com hooks
+        for more information, see https://pre-commit.ci
+    # whether to autofix pull requests. when disabled, comment / label
+    # "pre-commit.ci autofix" to a pull request to manually trigger
+    # auto-fixing.
+    autofix_prs: true
+    # branch to send autoupdate PRs to; by default, pre-commit.ci will update
+    # the default branch of the repository.
+    autoupdate_branch: ""
+    # custom commit message for autoupdate PRs.
+    autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
+    # control when the autoupdate runs, possible values: 'weekly',
+    # 'monthly', 'quarterly'.
+    autoupdate_schedule: weekly
+    # a list of hook ids to skip only in pre-commit.ci;
+    skip: []
+    #  whether to recursively check out submodules
+    submodules: false
+```

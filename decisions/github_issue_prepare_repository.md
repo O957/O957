@@ -34,6 +34,8 @@ This issue covers the following:
 * (possible) Presence of `dev-notes.md` in `assets/misc`.
 * (possible) presence of `mypy.ini` file, if using Python.
 * (possible) presence of `lintr` file, if using R.
+* (possible) Registration for `pre-commit` CI.
+* Installation of `uv` (see [here]()).
 * Between 2-5 tags on GitHub.
 * Description on GitHub.
 * If `poetry`, ensure `poetry.lock` is not tracked.

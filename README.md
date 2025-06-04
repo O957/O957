@@ -74,7 +74,7 @@ Click To Expand
 
 The constituent folders of this repository are:
 
-* `decisions`: Files that contain considerations on decisions that the author is interested in making and the decisions themselves. The author enjoys standardizing elements of life that are repeated frequently and the process of writing these decisions files has aided with this. Most of the decisions concern the author's programming practices.
+* `protocols`: Files that contain considerations on protocols that the author is interested in following. The author enjoys standardizing elements of life that are repeated frequently and the process of writing these protocol files has aided with this. Most of the protocols concern the author's programming practices.
 * `examples`: External examples for reference of actions or decisions that the author is considering doing or making, respectively.
 * `notes`: Notes that the author has taken and wishes to display publicly. These notes will oftentimes coincide with different resources stored in `./resources`.
 * `profile`: Images, including artwork and those the author has taken, that the author is using, has used, or intends to use, at some point, on his main README profile.

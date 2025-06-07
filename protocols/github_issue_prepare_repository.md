@@ -4,6 +4,11 @@ _This document contains the contents of a common issue that the author makes on 
 
 This issue covers the following:
 
+* Use of `uv` for projects with Python.
+  * `uv python pin 3.13`
+  * Dependencies added as groups.
+  *
+
 * Proper `poetry` file `pyproject.toml` exists:
   * `name`
   * `version`

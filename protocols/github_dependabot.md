@@ -134,7 +134,7 @@ updates:
 ###############################################################################
 ```
 
-For the sake of using Dependabot, the current state of this decision file suffices, though there may be future updates (2025-05-20).
+For the sake of using Dependabot, the current state of this protocol file suffices, though there may be future updates (2025-05-20).
 
 * Since pull requests made by Dependabot fail `pre-commit`, the CI for `pre-commit` (see [here](https://pre-commit.ci/)) can be used to automatically fix the PRs; some benefits:
 

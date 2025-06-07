@@ -139,10 +139,22 @@ repos:
         args: [
           "--line-length=79",
         ]
-# -   repo: https://github.com/pre-commit/mirrors-mypy
-#     rev: v1.13.0
-#     hooks:
-#       - id: mypy
+###############################################################################
+# XENON CODE COMPLEXITY
+###############################################################################
+-   repo: https://github.com/rubik/xenon
+    rev: v0.9.0
+    hooks:
+    -   id: xenon
+        args: [
+            # threshold for the average complexity
+            # (across all the codebase).
+            "--max-absolute=B",
+            # threshold for modules complexity.
+            "--max-modules=B",
+            # absolute threshold for block complexity.
+            "--max-average=A"
+        ]
 ###############################################################################
 # UV PACKAGE AND DEPENDENCY MANAGEMENT
 ###############################################################################

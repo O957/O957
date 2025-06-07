@@ -24,6 +24,15 @@ Current Date: 2025-06-06
 
 </details>
 
+Description:
+
+> Radon is a Python tool that computes various metrics from the source code. Radon can compute:
+>
+> * McCabe's complexity, i.e. cyclomatic complexity
+> * raw metrics (these include SLOC, comment lines, blank lines, &c.)
+> * Halstead metrics (all of them)
+> * Maintainability Index (the one used in Visual Studio)
+
 Useful Links:
 
 * Radon Documentation Site: <https://radon.readthedocs.io/en/latest/intro.html>

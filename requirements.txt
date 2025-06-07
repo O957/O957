@@ -30,7 +30,7 @@ jsonschema-specifications==2025.4.1
     # via jsonschema
 markupsafe==3.0.2
     # via jinja2
-narwhals==1.39.0
+narwhals==1.41.1
     # via altair
 nodeenv==1.9.1 ; python_full_version < '4.0'
     # via

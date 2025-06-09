@@ -105,7 +105,8 @@ repos:
           "--select",
           # isort
           "I",
-          "--fix"]
+          "--fix"
+        ]
     # run ruff linter; the Ruff Linter is an extremely fast Python linter
     # designed as a drop-in replacement for Flake8 (plus dozens of plugins),
     # isort, pydocstyle, pyupgrade, autoflake, and more
@@ -132,7 +133,8 @@ repos:
           # linter checks for lines, but doesn't fix, default is 88
           "--line-length=79",
           # lint all files in the current directory, and fix any fixable errors.
-          "--fix"]
+          "--fix"
+        ]
     # run the ruff-formatter; the Ruff formatter is an extremely fast
     # Python code formatter designed as a drop-in replacement for Black
     -   id: ruff-format
@@ -175,10 +177,6 @@ repos:
 ###############################################################################
 # SECURITY
 ###############################################################################
-# -   repo: https://github.com/gitleaks/gitleaks
-#     rev: v8.19.0
-#     hooks:
-#     -   id: gitleaks
 -   repo: https://github.com/Yelp/detect-secrets
     rev: v1.5.0
     hooks:

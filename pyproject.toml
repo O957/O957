@@ -9,22 +9,23 @@ readme = "README.md"
 license = "Apache-2.0"
 keywords = ["personal"]
 requires-python = ">=3.13"
-dependencies = [
-    "altair>=5.5.0",
-    "cfgv==3.4.0 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "distlib==0.3.9 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "filelock==3.16.1 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "identify==2.6.1 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "nodeenv==1.9.1 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "platformdirs==4.3.6 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "polars>=1.29.0",
-    "pre-commit==3.8.0 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "pygments==2.18.0 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "pyyaml==6.0.2 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-    "virtualenv==20.27.1 ; python_full_version >= '3.12' and python_full_version < '4.0'",
-]
+dependencies = []
 
 [project.urls]
 Repository = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2"
 Issues = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2/issues"
 "Author GitHub" = "https://github.com/AFg6K7h4fhy2/"
+
+[project.optional-dependencies]
+dev = [
+    "altair>=5.5.0",
+    "polars>=1.30.0",
+]
+test = [
+    "pytest>=8.4.0",
+]
+
+
+[tool.deptry]
+pep621_dev_dependency_groups = ["dev", "test"]
+requirements_files = ["requirements.txt"]

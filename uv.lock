@@ -6,11 +6,13 @@ requires-python = ">=3.13"
 name = "afg6k7h4fhy2"
 version = "0.0.1"
 source = { virtual = "." }
+dependencies = [
+    { name = "deptry" },
+]
 
 [package.optional-dependencies]
 dev = [
     { name = "altair" },
-    { name = "deptry" },
     { name = "polars" },
 ]
 test = [
@@ -20,7 +22,7 @@ test = [
 [package.metadata]
 requires-dist = [
     { name = "altair", marker = "extra == 'dev'", specifier = ">=5.5.0" },
-    { name = "deptry", marker = "extra == 'dev'", specifier = ">=0.23.0" },
+    { name = "deptry", specifier = ">=0.23.0" },
     { name = "polars", marker = "extra == 'dev'", specifier = ">=1.30.0" },
     { name = "pytest", marker = "extra == 'test'", specifier = ">=8.4.0" },
 ]

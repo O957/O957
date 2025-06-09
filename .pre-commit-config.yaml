@@ -145,10 +145,12 @@ repos:
 -  repo: https://github.com/fpgmaas/deptry.git
    rev: "0.23.0" # from https://github.com/fpgmaas/deptry/tags
    hooks:
+   # some items from: https://github.com/fpgmaas/deptry/pull/124
    -    id: deptry
-        entry: deptry .
-        language: system
         args: [
+            "--ignore",
+            "DEP002", # ignore deptry itself, needs to be installed for
+            # pre-commit to work
             "--requirements-files",
             "requirements.txt",
             "--pep621-dev-dependency-groups",

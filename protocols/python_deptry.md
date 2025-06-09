@@ -55,19 +55,25 @@ uv add deptry --optional dev
 As Pre-Commit Hook:
 
 ```yaml
+###############################################################################
+# DEPTRY UNUSED DEPENDENCIES
+###############################################################################
 -  repo: https://github.com/fpgmaas/deptry.git
    rev: "0.23.0" # from https://github.com/fpgmaas/deptry/tags
    hooks:
+   # some items from: https://github.com/fpgmaas/deptry/pull/124
    -    id: deptry
+        entry: deptry .
+        language: system
         args: [
             "--requirements-files",
             "requirements.txt",
-            "--pep621_dev_dependency_groups",
-            "test"
+            "--pep621-dev-dependency-groups",
+            "test,dev"
         ]
 ```
 
-Usage Output Example:
+Usage Output Example (Local):
 
 ```
 Assuming the corresponding module name of package 'pytest' is 'pytest'. Install the package or configure a package_module_name_map entry to override this behaviour.
@@ -78,3 +84,5 @@ Found 1 dependency issue.
 
 For more information, see the documentation: https://deptry.com/
 ```
+
+I had trouble getting the hook to work on GitHub, so I am using

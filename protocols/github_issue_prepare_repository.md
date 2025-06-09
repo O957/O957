@@ -78,7 +78,7 @@ This issue covers the following:
 
 <details markdown=1>
 
-<summary> Assets Folder Contents <summary>
+<summary> Assets Folder Contents </summary>
 
 (as `feature-list.md` in `assets/misc`)
 

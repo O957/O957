@@ -1,64 +1,88 @@
 # Preparing Repository For Production
 
-_This document contains the contents of a common issue that the author makes on his repositories called Prepare Repository For Production._
+_This document contains the contents of a common issue, called Prepare Repository For Production, that I make in my repositories to ensure everything is set up properly._
 
 This issue covers the following:
 
-* Use of `uv` for projects with Python.
-  * `uv python pin 3.13`
-  * Dependencies added as groups.
-  *
+* [ ] Use of `uv` for projects with Python.
+  * [ ] `uv python pin 3.13`.
+  * [ ] Dependencies, with groups (`dev`, `test`).
+    * [ ] `uv add pytest --group test`
+  * [ ] `uv sync`.
+  * [ ] Proper `pyproject.toml` file:
 
-* Proper `poetry` file `pyproject.toml` exists:
-  * `name`
-  * `version`
-  * `description`
-  * `authors`
-  * `license`
-  * `readme`
-  * `repository`
-  * `keywords`
-  * Dependencies groups.
-  * URLs (`[tool.poetry.urls]`).
-* (possible) Dependabot enabled.
-  * Fork <https://github.com/dependabot/demo>.
-  * Select current repository.
-  * Go to Advanced Security in Security in Settings.
-  * Enable the bot.
-* Proper `CONTRIBUTING` file.
-* MVP `README`.
-  * Title of repositories.
-  * Description from GitHub.
-  * Note of Work In Progress.
-* Labels being synched (see end).
-* Milestones created.
-  * Backlog: Backlog of issues and PRs that have no due date.
-* Issues and PRs labeled and milestoned.
-* (possible) Presence of paper in assets.
-* (possible) Presence of `repo-notes.md` in `assets/misc`.
-* (possible) Presence of `dev-notes.md` in `assets/misc`.
-* (possible) presence of `mypy.ini` file, if using Python.
-* (possible) presence of `lintr` file, if using R.
-* (possible) Registration for `pre-commit` CI.
-* Installation of `uv` (see [here]()).
-* Between 2-5 tags on GitHub.
-* Description on GitHub.
-* If `poetry`, ensure `poetry.lock` is not tracked.
-* Proper `pre-commit` workflow.
-* Proper `pre-commit-config` file.
-* Proper `_typos.toml`.
-* Proper `.gitignore`.
-* Blank issue in `ISSUE_TEMPLATE`.
-* Branch protections to `main`.
-  * Require a pull request before merging & (Require approvals & Require review from Code Owners).
-  * Require status checks to pass before merging.
-  * Require conversation resolution before merging.
-* Proper `CODEOWNERS`.
-* If CDC repository, proper Statements.
-* Proper `LICENSE`.
-* No Discussions or Wiki enabled.
-* (possible) Sponsorships enable.
-* Python environment change to Python 3.13
+```
+[project]
+name = ""
+version = "0.0.1"
+authors = [
+  {name = "", email = ""},
+]
+description = "<repository description>"
+license = "Apache-2.0"
+readme = "README.md"
+keywords = [<repository tags>]
+requires-python = ">=3.13"
+
+[project.urls]
+Repository = ""
+Issues = ""
+"Author GitHub" = "https://github.com/AFg6K7h4fhy2"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 15
+```
+
+* [ ] Proper `pre-commit` workflow (see below).
+* [ ] Proper `pre-commit` configuration file (see below).
+* [ ] Dependabot enabled.
+  * [ ] Proper `dependabot.yaml` file (see below).
+* [ ] Proper `CONTRIBUTING` file (see below).
+* [ ] Proper `CODEOWNERS` file (see below).
+* [ ] Proper `_typos.toml` (see below).
+* [ ] Proper `.gitignore` (see below).
+* [ ] Proper `LICENSE` (usually Apache-2.0) (see below).
+* [ ] Proper minimum viable `README` (see below).
+* [ ] Blank issue in `ISSUE_TEMPLATE` (see below).
+* [ ] GitHub issue labels synched (see below).
+* [ ] GitHub milestones created.
+  * [ ] Backlog: Backlog of issues and PRs that have no due date.
+* [ ] Open issues and pull requests labeled and milestoned.
+* [ ] GitHub tags (2-5) in repository description.
+* [ ] GitHub description on repository.
+* [ ] Proper "General" settings:
+  * [ ] Default branch `main`.
+  * [ ] Wikis (disabled).
+  * [ ] Issues (enabled).
+  * [ ] Allow forking (choose based on repository).
+  * [ ] Sponsorships (choose based on repository).
+  * [ ] Discussions (choose based on repository).
+  * [ ] Projects (enabled).
+  * [ ] Allow merge commits.
+  * [ ] Allow squash merging.
+  * [ ] Allow rebase merging.
+* [ ] Proper "Branches" settings:
+  * [ ] Classic branch protection rule:
+    * [ ] To `main`.
+    * [ ] Require a pull request before merging.
+    * [ ] Require approvals.
+    * [ ] Require review from Code Owners.
+    * [ ] Require status checks to pass before merging.
+    * [ ] Require conversation resolution before merging.
+* [ ] Proper "Actions" (general) settings:
+  * [ ] Allow enterprise, and select non-enterprise, actions and reusable workflows.
+  * [ ] Artifact / logs saved for 30 days.
+  * [ ] Read and write permissions (in workflow permissions).
+  * [ ] Allow GitHub Actions to create and approve pull requests.
+  * [ ] Not accessible (workflows in other repositories cannot access this repository).
+* [ ] Proper "Advanced Security" settings:
+  * [ ] Dependency graph (enabled).
+  * [ ] Automatic dependency submission (disabled).
+  * [ ] Dependabot alerts (enabled).
+  * [ ] Dependabot security updates (enabled).
+  * [ ] Grouped security updates (enabled).
+  * [ ] Dependabot on Actions runners (enabled).
+
 
 For the label synching:
 
@@ -67,16 +91,6 @@ export LABELS_USERNAME="<YOUR USERNAME>"
 export LABELS_TOKEN="<YOUR TOKEN>"
 labels fetch -o <OWNER OF REPOSITORY WITH LABELS> -r <REPOSITORY WITH LABELS>
 labels sync -o <OWNER OF REPOSITORY TO RECEIVE LABELS> -r <REPOSITORY TO RECEIVE LABELS> -f <LABELS FILE NAME>
-```
-
-For the proper `poetry` environment on the author's system:
-
-```
-poetry env info
-poetry env remove python3
-poetry env use /Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13
-poetry install
-poetry env info
 ```
 
 Note, some tasks in this issue have already been completed.

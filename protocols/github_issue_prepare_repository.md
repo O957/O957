@@ -11,6 +11,12 @@ This issue covers the following:
   * [ ] `uv sync`.
   * [ ] Proper `pyproject.toml` file (see below).
   * [ ] No `requirements.txt`.
+* [ ] Proper `assets` folder (see below):
+  * [ ] `feature-list.md`
+  * [ ] `roadmap.md`
+  * [ ] `equations.md`
+  * [ ] `glossary.md`
+  * [ ] `decisions.md`
 * [ ] Proper `pre-commit` settings.
   * [ ] `pre-commit install`.
   * [ ] Proper `pre-commit` workflow (see below).
@@ -69,6 +75,57 @@ This issue covers the following:
   * [ ] Dependabot on Actions runners (enabled).
   * [ ] Copilot Autofix (disabled).
   * [ ] Copilot Autofix for third-party tools (disabled).
+
+<details markdown=1>
+
+<summary> Assets Folder Contents <summary>
+
+(as `feature-list.md` in `assets/misc`)
+
+```md
+# Feature List
+
+_This document captures features that this repository or project that are currently available or that are desired._
+```
+
+
+(as `roadmap.md` in `assets/misc`)
+
+
+```md
+# Roadmap
+
+_This document details a roadmap for this repository or project._
+```
+
+
+(as `equations.md` in `assets/misc`)
+
+```md
+# Equations
+
+_This document captures any notable equations and mathematics of this repository or project._
+```
+
+
+(as `glossary.md` in `assets/misc`)
+
+```md
+# Glossary
+
+_This document contains definitions of terms relevant to engaging with this repository or project._
+```
+
+
+(as `decisions.md` in `assets/misc`)
+
+```md
+# Decisions
+
+_This document contains justification and reasoning for design and other decisions made during the construction of this repository or project._
+```
+
+</details>
 
 <details markdown=1>
 

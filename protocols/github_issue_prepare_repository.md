@@ -40,9 +40,12 @@ This issue covers the following:
   * [ ] Sponsorships (choose based on repository).
   * [ ] Discussions (choose based on repository).
   * [ ] Projects (enabled).
+  * [ ] Preserve this repository (disabled).
+  * [ ] Include Git LFS objects in archives (disabled).
   * [ ] Allow merge commits.
   * [ ] Allow squash merging.
   * [ ] Allow rebase merging.
+  * [ ] Auto-close issues with merged linked pull requests (enabled).
 * [ ] Proper "Branches" settings:
   * [ ] Classic branch protection rule:
     * [ ] To `main`.
@@ -64,6 +67,8 @@ This issue covers the following:
   * [ ] Dependabot security updates (enabled).
   * [ ] Grouped security updates (enabled).
   * [ ] Dependabot on Actions runners (enabled).
+  * [ ] Copilot Autofix (disabled).
+  * [ ] Copilot Autofix for third-party tools (disabled).
 
 <details markdown=1>
 

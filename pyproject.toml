@@ -24,3 +24,8 @@ dev = [
 test = [
     "pytest>=8.4.0",
 ]
+
+
+[tool.deptry]
+pep621_dev_dependency_groups = ["dev", "test"]
+requirements_files = ["requirements.txt"]

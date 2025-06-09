@@ -142,22 +142,6 @@ repos:
           "--line-length=79",
         ]
 ###############################################################################
-# DEPTRY UNUSED DEPENDENCIES
-###############################################################################
--  repo: https://github.com/fpgmaas/deptry.git
-   rev: "0.23.0" # from https://github.com/fpgmaas/deptry/tags
-   hooks:
-   # some items from: https://github.com/fpgmaas/deptry/pull/124
-   -    id: deptry
-        language: system
-        entry: deptry .
-        args: [
-            "--requirements-files",
-            "requirements.txt",
-            "--pep621-dev-dependency-groups",
-            "test,dev"
-        ]
-###############################################################################
 # XENON CODE COMPLEXITY
 ###############################################################################
 -   repo: https://github.com/rubik/xenon

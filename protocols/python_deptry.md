@@ -63,8 +63,8 @@ As Pre-Commit Hook:
    hooks:
    # some items from: https://github.com/fpgmaas/deptry/pull/124
    -    id: deptry
-        entry: deptry .
         language: system
+        entry: deptry .
         args: [
             "--requirements-files",
             "requirements.txt",
@@ -85,4 +85,12 @@ Found 1 dependency issue.
 For more information, see the documentation: https://deptry.com/
 ```
 
-I had trouble getting the hook to work on GitHub, so I am using
+As A Tool Section In The Pyproject File:
+
+```yaml
+[tool.deptry]
+pep621_dev_dependency_groups = ["dev", "test"]
+requirements_files = ["requirements.txt"]
+```
+
+I had trouble getting the hook to work on GitHub, so I am using the tool section in the `pyproject.toml` file.

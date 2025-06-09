@@ -146,6 +146,8 @@ repos:
    rev: "0.23.0" # from https://github.com/fpgmaas/deptry/tags
    hooks:
    -    id: deptry
+        entry: deptry .
+        language: system
         args: [
             "--requirements-files",
             "requirements.txt",

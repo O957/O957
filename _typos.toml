@@ -15,9 +15,12 @@ dot_ist = ".ist"
 Remane = "Remane"
 aquaduct = "aquaduct"
 
+
 [files]
 extend-exclude = [
     ".gitignore",
     ".pre-commit-config.yaml",
     "./.github/ISSUE_TEMPLATE/general_issue.md",
-    "*.bib"]
+    "github_issue_prepare_repository.md",
+    "*.bib"
+]

@@ -7,7 +7,7 @@ This issue covers the following:
 * [ ] Use of `uv` for projects with Python.
   * [ ] `uv python pin 3.13`.
   * [ ] Dependencies, with groups (`dev`, `test`).
-    * [ ] `uv add pytest --group test`
+    * [ ] `uv add pytest --optional test`
   * [ ] `uv sync`.
   * [ ] Proper `pyproject.toml` file (see below).
   * [ ] No `requirements.txt`.
@@ -321,6 +321,10 @@ Issues = ""
 
 [tool.ruff.lint.mccabe]
 max-complexity = 15
+
+[tool.deptry]
+pep621_dev_dependency_groups = ["dev", "test"]
+requirements_files = ["requirements.txt"]
 ```
 
 </details>

@@ -1,6 +1,6 @@
-# Contributing Guidelines
+# Contribution Guidelines
 
-_This document contains some guidelines for your making of contributions in this repository. At present, the author would rather have your contribution than not, if following these guidelines would effectuate you not making a contribution._
+_This document contains some guidelines for external contributions in this repository. At present, I would (on average) rather have you contribute than not, and if following these guidelines would effectuate you not making a contribution, I would rather you ignore them and contribute._
 
 Primarily, aim to follow GitHub's community guidelines:
 

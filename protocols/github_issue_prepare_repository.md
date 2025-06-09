@@ -10,6 +10,7 @@ This issue covers the following:
     * [ ] `uv add pytest --group test`
   * [ ] `uv sync`.
   * [ ] Proper `pyproject.toml` file (see below).
+  * [ ] No `requirements.txt`.
 * [ ] Proper `pre-commit` settings.
   * [ ] `pre-commit install`.
   * [ ] Proper `pre-commit` workflow (see below).
@@ -68,6 +69,8 @@ This issue covers the following:
 
 <summary> Blank Issue Template </summary>
 
+(as `blank.md` in `./.github/ISSUE_TEMPLTE`)
+
 ```md
 ---
 name: Blank Issue
@@ -83,6 +86,8 @@ assignees: ""
 <details markdown=1>
 
 <summary> Apache-2.0 LICENSE </summary>
+
+(as `LICENSE` in `./`)
 
 ```
                                  Apache License
@@ -294,6 +299,8 @@ assignees: ""
 
 <summary> Pyproject File </summary>
 
+(as `pyproject.yaml` in `./`)
+
 ```yaml
 [project]
 name = ""
@@ -322,6 +329,8 @@ max-complexity = 15
 <details markdown=1>
 
 <summary> CONTRIBUTION File </summary>
+
+(as `CONTRIBUTING.md` in `./`)
 
 ```
 # Contribution Guidelines
@@ -354,7 +363,9 @@ Secondarily, aim to follow these guidelines[^guidelines], as outlined by the aut
 
 <details markdown=1>
 
-<summary> CODEOWNERS </details>
+<summary> CODEOWNERS </summary>
+
+(as `CODEOWNERS` in `./.github`)
 
 ```
 # For any changes to any facet of this repository reference:
@@ -367,6 +378,9 @@ Secondarily, aim to follow these guidelines[^guidelines], as outlined by the aut
 <details markdown=1>
 
 <summary> Dependabot </summary>
+
+(as `dependabot.yaml` in `./.github/`)
+
 
 ```yaml
 ###############################################################################
@@ -445,7 +459,9 @@ updates:
 
 <details markdown=1>
 
-<summary> Pre-Commit Config </summary>
+<summary> Pre-Commit Workflow </summary>
+
+(as `pre-commit.yaml` in `./.github/workflows`)
 
 ```yaml
 name: pre-commit
@@ -470,6 +486,8 @@ jobs:
 <details markdown=1>
 
 <summary> Pre-Commit Config </summary>
+
+(as `pre-commit-config.yaml` in `./`)
 
 ```yaml
 ###############################################################################
@@ -693,6 +711,8 @@ repos:
 
 <summary> Typos File </summary>
 
+(as `_typos.yaml` in `./`)
+
 ```yaml
 [default]
 extend-ignore-identifiers-re = [
@@ -727,6 +747,7 @@ extend-exclude = [
 
 <summary> GitIgnore </summary>
 
+(as `.gitignore` in `./`)
 
 ```
 ################################################################################

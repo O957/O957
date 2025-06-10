@@ -90,7 +90,6 @@ As A Tool Section In The Pyproject File:
 ```yaml
 [tool.deptry]
 pep621_dev_dependency_groups = ["dev", "test"]
-requirements_files = ["requirements.txt"]
 ```
 
 I had trouble getting the hook to work on GitHub, so I am using the tool section in the `pyproject.toml` file.

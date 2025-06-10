@@ -386,7 +386,6 @@ max-complexity = 15
 
 [tool.deptry]
 pep621_dev_dependency_groups = ["dev", "test"]
-requirements_files = ["requirements.txt"]
 ```
 
 </details>

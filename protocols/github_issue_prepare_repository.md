@@ -961,7 +961,8 @@ extend-exclude = [
 
 <summary> GitIgnore </summary>
 
-(as `.gitignore` in `./`)
+
+(as `.gitignore` in root)
 
 ```
 ################################################################################
@@ -1492,6 +1493,10 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+# (next three added by repository owner)
+.Rprofile
+#renv.lock
+renv/
 
 # pkgdown site
 docs/
@@ -1624,6 +1629,7 @@ author_emails.txt
 # csv files must be converted to parquet files
 *.csv
 env
+
 ```
 
 </details>

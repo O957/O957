@@ -11,6 +11,9 @@ This issue covers the following:
   * [ ] `uv sync`.
   * [ ] Proper `pyproject.toml` file (see below).
   * [ ] No `requirements.txt`.
+* [ ] Use of `air` for projects with R.
+  * [ ] Proper `air toml` file (see below).
+  * [ ] Proper `format-check.yaml` file (see below).
 * [ ] Proper `assets` folder (see below):
   * [ ] `feature-list.md`
   * [ ] `roadmap.md`
@@ -23,6 +26,7 @@ This issue covers the following:
   * [ ] Proper `pre-commit` configuration file (see below).
   * [ ] `detect-secrets scan > .secrets.baseline`.
   * [ ] CI enabled (choose based on repository).
+  * [ ] Proper R `pre-commit` hooks for projects with R (see below)
 * [ ] Dependabot enabled.
   * [ ] Proper `dependabot.yaml` file (see below).
 * [ ] Proper `CONTRIBUTING` file (see below).
@@ -766,6 +770,121 @@ repos:
     -   id: gitlint
 ###############################################################################
 ```
+
+</details>
+
+<details markdown=1>
+
+<summary> R Pre-Commit Hook </summary>
+
+(add beneath Python hooks)
+
+```yaml
+###############################################################################
+# R
+###############################################################################
+-   repo: https://github.com/lorenzwalthert/precommit
+    rev: v0.4.3.9009
+    hooks:
+    #  a hook to run lintr::lint() to check that R files are lint free.
+    -   id: lintr
+    # guarantees you that you don’t accidentally commit code with a
+    # debug() or debugonce() statement in it. This hook does not
+    # modify files.
+    -   id: no-debug-statement
+    # guarantees you that you don’t accidentally commit code with a
+    # print() statement in it. This hook does not modify files.
+    -   id: no-print-statement
+    # guarantees you that you don’t accidentally commit code with a
+    # browser() statement in it. This hook does not modify files.
+    -   id: no-browser-statement
+    # checks if your .R and .Rmd files are “valid” R code by checking if
+    # running parse() on them (or their knitr::purl()ed output for .Rmd)
+    # returns an error. This hook does not modify files.
+    -   id: parsable-R
+```
+
+</details>
+
+
+<details markdown=1>
+
+<summary> Air Toml File </summary>
+
+(in root in `air.toml`)
+
+```toml
+[format]
+line-width = 80
+indent-width = 2
+indent-style = "space"
+line-ending = "auto"
+persistent-line-breaks = true
+exclude = []
+default-exclude = true
+skip = []
+```
+
+</details>
+
+<details markdown=1>
+
+<summary> Air Workflow File </summary>
+
+(in `./.github/workflows` as `format-check.yaml`)
+
+```yaml
+###############################################################################
+# OVERVIEW
+###############################################################################
+# The following is a workflow derived from
+# https://github.com/posit-dev/setup-air/blob/main/examples/format-check.yaml
+# that suggests edits for the air R-code formatter (see air.toml) for more
+# information. The author installed air on mac via:
+# curl -LsSf https://github.com/posit-dev/air/releases/
+# latest/download/air-installer.sh | sh
+#
+# Description:
+#
+# This runs air format . --check on every push to main and on every pull
+# request. This is a very simple action that fails if any files would be
+# reformatted. When this happens, reformat locally using air format . or
+# the Air: Format Workspace Folder command in VS Code or Positron, and commit
+# and push the results.
+#
+# Note: The author believes that it's simpler to batch fixes w/ locally
+# with the checker rather than many small commits w/ the suggester.
+#
+# Links:
+#
+# Air GitHub Page: https://github.com/posit-dev/air
+# Air Configuration: https://posit-dev.github.io/air/configuration.html
+# Air Actions: https://posit-dev.github.io/air/integration-github-actions.html
+###############################################################################
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+name: format-check.yaml
+
+permissions: read-all
+
+jobs:
+  format-check:
+    name: format-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install
+        uses: posit-dev/setup-air@v1
+
+      - name: Check
+        run: air format . --check
+```
+
+
 
 </details>
 

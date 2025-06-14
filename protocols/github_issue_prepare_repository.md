@@ -20,6 +20,7 @@ This issue covers the following:
   * [ ] `equations.md`
   * [ ] `glossary.md`
   * [ ] `decisions.md`
+  * [ ] `resources.md`
 * [ ] Proper `pre-commit` settings.
   * [ ] `pre-commit install`.
   * [ ] Proper `pre-commit` workflow (see below).
@@ -120,13 +121,20 @@ _This document captures any notable equations and mathematics of this repository
 _This document contains definitions of terms relevant to engaging with this repository or project._
 ```
 
-
 (as `decisions.md` in `assets/misc`)
 
 ```md
 # Decisions
 
 _This document contains justification and reasoning for design and other decisions made during the construction of this repository or project._
+```
+
+(as `resources.md` in `assets/misc`)
+
+```md
+# Resources
+
+_This document captures resources such as links, quotes, or checklists relevant to the scope of this repository._
 ```
 
 </details>

@@ -15,12 +15,14 @@ This issue covers the following:
   * [ ] Proper `air toml` file (see below).
   * [ ] Proper `format-check.yaml` file (see below).
 * [ ] Proper `assets` folder (see below):
-  * [ ] `feature-list.md`
-  * [ ] `roadmap.md`
-  * [ ] `equations.md`
-  * [ ] `glossary.md`
-  * [ ] `decisions.md`
-  * [ ] `resources.md`
+  * [ ] Proper `misc` folder:
+    * [ ] `feature-list.md`
+    * [ ] `roadmap.md`
+    * [ ] `equations.md`
+    * [ ] `glossary.md`
+    * [ ] `decisions.md`
+    * [ ] `resources.md`
+  * [ ] Proper `paper` folder (if needed)
 * [ ] Proper `pre-commit` settings.
   * [ ] `pre-commit install`.
   * [ ] Proper `pre-commit` workflow (see below).

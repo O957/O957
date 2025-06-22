@@ -66,4 +66,19 @@ updates:
       separator: "-"
     labels:
       - "Dependencies"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "10:00"
+      timezone: "America/Denver"
+    reviewers:
+      - "AFg6K7h4fhy2"
+    assignees:
+      - "AFg6K7h4fhy2"
+    pull-request-branch-name:
+      separator: "-"
+    labels:
+      - "Dependencies"
 ###############################################################################

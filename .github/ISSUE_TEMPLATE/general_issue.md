@@ -1,6 +1,6 @@
 ---
 name: General Issue
-about: A general issue template for AFg6K7h4fhy2's repositories.
+about: A general issue template for O957's repositories.
 title: ''
 labels: ["general-issue"]
 assignees: ''

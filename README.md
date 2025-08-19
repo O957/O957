@@ -7,7 +7,7 @@ A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,
 
 </details>
 
-Dear reader, welcome!
+## Welcome!
 
 This repository contains some information about my work and GitHub activity. Means of contacting me are also provided.
 

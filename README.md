@@ -1,15 +1,80 @@
 
 ![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/O957/O957/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910.jpg)
 
+<details markdown=1>
 
-_A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called_ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946)_.
+A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called_ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946).
 
+</details>
 
-In this repository, the reader will find some items that I have accumulated to facilitate my work.
+Dear reader, welcome!
+
+This repository contains some information about my work and GitHub activity. Means of contacting me are also provided.
 
 <details markdown=1>
 
-<summary> Some Brief Notes </summary>
+<summary> Overview Of Public, Non-Work Repositories </summary>
+
+
+</details>
+
+
+
+
+<details markdown=1>
+
+<summary> Overview Of Public, Work Repositories </summary>
+
+
+</details>
+
+
+
+<details markdown=1>
+
+<summary> Contributions Over The Years On GitHub </summary>
+
+
+<details markdown=1>
+
+<summary> 2025 </summary>
+
+![](./assets/images/contributions_2025.png)
+
+</details>
+
+
+
+
+<details markdown=1>
+
+<summary> 2024 </summary>
+
+![](./assets/images/contributions_2024.png)
+
+</details>
+
+
+
+
+<details markdown=1>
+
+<summary> 2023 </summary>
+
+![](./assets/images/contributions_2023.png)
+
+</details>
+
+
+
+
+</details>
+
+
+
+<details markdown=1>
+
+<summary> How To Contact Me </summary>
 
 To contact me:
 

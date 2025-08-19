@@ -15,18 +15,3 @@ dependencies = []
 Repository = "https://github.com/O957/O957"
 Issues = "https://github.com/O957/O957/issues"
 "Author GitHub" = "https://github.com/O957/"
-
-[project.optional-dependencies]
-dev = [
-    "altair>=5.5.0",
-    "polars>=1.30.0",
-]
-test = [
-    "pytest>=8.4.0",
-]
-
-[tool.ruff.lint.mccabe]
-max-complexity = 15
-
-[tool.deptry]
-pep621_dev_dependency_groups = ["dev", "test"]

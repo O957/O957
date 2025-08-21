@@ -15,15 +15,47 @@ This repository contains some information about my work and GitHub activity. Mea
 
 <summary> Overview Of Public, Non-Work Repositories </summary>
 
+## Active
+
+| Repository &emsp;| Description | Stars |
+|:---|:---|:---|
+| [`paleo-labels`](https://github.com/CDCgov/forecasttools-py) | A Python package for writing precisely formatted labels for natural specimens and related items, such as collections and excursions. | 4 |
+| [`Historical-Dynamics-Python`](https://github.com/cdcent/covidhub-internal-reports) | A repository for generation and analysis of reports and evaluations on CFA and external models submitting to the CFA-run COVID Hub.   | 1 |
+| [`Genetic-Evolution-Tournament`](https://github.com/CDCgov/PyRenew) | Python package for multi-signal Bayesian renewal modeling with JAX and NumPyro.   | 16 |
+| [`pyrenew-flu-light`](https://github.com/CDCgov/pyrenew-flu-light) | A replication in Python and PyRenew of a renewal model written in Epidemia for forecasting influenza hospital admissions. | 1 |
+| [`covid19-forecast-hub `](https://github.com/CDCgov/covid19-forecast-hub) | A repository run by the US CDC to collect forecasts of weekly incident COVID-19 hospital admissions.  | 10 |
+| [`cfa-forecast-epinow2 `](https://github.com/cdcent/cfa-forecast-EpiNow2) | An EpiNow2 model for forecasting influenza hospital admissions. Forecasts were generated during the 2023-24 influenza season.  | 1 |
+
+
+## Finished
+
+## Stale
+
 
 </details>
 
+
+<details markdown=1>
+
+<summary> External Repositories Where I Have >= 5 Squashed Commits </summary>
+
+EMPTY!
+
+</details>
 
 
 
 <details markdown=1>
 
 <summary> Overview Of Public, Work Repositories </summary>
+
+| Repository &emsp;| Description | Role | Stars |
+|:---|:---|:---|
+| [`forecasttools-py`](https://github.com/CDCgov/forecasttools-py) | A Python package for common pre- and post-processing operations done by CFA Predict for short term forecasting, nowcasting, and scenario modeling. | Admin | 7 |
+| [`pyrenew`](https://github.com/CDCgov/PyRenew) | Python package for multi-signal Bayesian renewal modeling with JAX and NumPyro. | Developer | 17 |
+| [`pyrenew-flu-light`](https://github.com/CDCgov/pyrenew-flu-light) | A replication in Python and PyRenew of a renewal model written in Epidemia for forecasting influenza hospital admissions. | Admin | 1 |
+| [`covid19-forecast-hub `](https://github.com/CDCgov/covid19-forecast-hub) | A repository run by the US CDC to collect forecasts of weekly incident COVID-19 hospital admissions.  | Developer | 17 |
+| [`rsv-forecast-hub `](https://github.com/CDCgov/rsv-forecast-hub) | A repository run by the Centers for Disease Control and Prevention (CDC) to collect forecasts of weekly incident respiratory syncytial virus (RSV) hospitalizations.  | Admin | 1 |
 
 
 </details>

@@ -3,13 +3,15 @@
 
 <details markdown=1>
 
-A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called_ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946).
+A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called _Odysseus’ Homesickness_ by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946).
 
 </details>
 
 # Welcome!
 
-This repository contains some information about my work and GitHub activity. Means of contacting me are also provided.
+> [!NOTE]
+>
+> This repository contains some information about my work and GitHub activity. Means of contacting me are also provided.
 
 <details markdown=1>
 
@@ -50,7 +52,7 @@ EMPTY!
 <summary> Overview Of Public, Work Repositories </summary>
 
 | Repository &emsp;| Description | Role | Stars |
-|:---|:---|:---|
+|:---|:---|:---|:---|
 | [`forecasttools-py`](https://github.com/CDCgov/forecasttools-py) | A Python package for common pre- and post-processing operations done by CFA Predict for short term forecasting, nowcasting, and scenario modeling. | Admin | 7 |
 | [`pyrenew`](https://github.com/CDCgov/PyRenew) | Python package for multi-signal Bayesian renewal modeling with JAX and NumPyro. | Developer | 17 |
 | [`pyrenew-flu-light`](https://github.com/CDCgov/pyrenew-flu-light) | A replication in Python and PyRenew of a renewal model written in Epidemia for forecasting influenza hospital admissions. | Admin | 1 |

@@ -1,5 +1,5 @@
 
-![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/O957/O957/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910.jpg)
+![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/O957/O957/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910_edit.jpg)
 
 <details markdown=1>
 
@@ -130,9 +130,10 @@ EMPTY
 
 <summary> How To Contact Me </summary>
 
-To contact me:
+To contact me with greetings / criticism / advice:
 
 * Email [my-username] + [at-symbol] + [proton] + [dot-symbol] + [me]
+
 
 The constituent folders of this repository are:
 

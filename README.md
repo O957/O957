@@ -136,7 +136,7 @@ EMPTY
 
 <details markdown=1>
 
-<summary> How To Contact Me </summary>
+<summary> Contact Me </summary>
 
 <br>
 

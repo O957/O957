@@ -48,22 +48,7 @@ EMPTY
 </details>
 
 
-<details markdown=1>
 
-<summary> External Repositories I Have Contributed To </summary>
-
-
-| Repository &emsp;| Description |
-|:---|:---|
-| [`longevity-paper`](https://github.com/willtownes/longevity-paper) | Supporting code for the paper "Identifying Longevity Associated Genes by Integrating Gene Expression and Curated Annotations". |
-| [`paleobioDB`](https://github.com/ropensci/paleobioDB) | R interface to the Paleobiology Database. |
-| [`rphylopic`](https://github.com/palaeoverse/rphylopic) | Get Silhouettes of Organisms from PhyloPic.  |
-| [`hubTemplate`](https://github.com/hubverse-org/hubTemplate) | Hubverse repository template. |
-| [`pylabrobot`](https://github.com/PyLabRobot/pylabrobot) | interactive & hardware agnostic SDK for lab automation. |
-| [`covid19-forecast-hub`](https://github.com/CDCgov/covid19-forecast-hub) | A repository run by the US CDC to collect forecasts of weekly incident COVID-19 hospital admissions.  |
-| [`FluSight-forecast-hub`](https://github.com/cdcepi/FluSight-forecast-hub) | A repository to collect forecasts of weekly incident influenza hospital admissions. |
-
-</details>
 
 
 
@@ -79,6 +64,24 @@ EMPTY
 | [`covid19-forecast-hub `](https://github.com/CDCgov/covid19-forecast-hub) | A repository run by the US CDC to collect forecasts of weekly incident COVID-19 hospital admissions.  | Developer | 17 |
 | [`rsv-forecast-hub `](https://github.com/CDCgov/rsv-forecast-hub) | A repository run by the Centers for Disease Control and Prevention (CDC) to collect forecasts of weekly incident respiratory syncytial virus (RSV) hospitalizations.  | Admin | 1 |
 
+
+</details>
+
+
+<details markdown=1>
+
+<summary> External Repositories I Have Contributed To </summary>
+
+
+| Repository &emsp;| Description |
+|:---|:---|
+| [`longevity-paper`](https://github.com/willtownes/longevity-paper) | Supporting code for the paper "Identifying Longevity Associated Genes by Integrating Gene Expression and Curated Annotations". |
+| [`paleobioDB`](https://github.com/ropensci/paleobioDB) | R interface to the Paleobiology Database. |
+| [`rphylopic`](https://github.com/palaeoverse/rphylopic) | Get Silhouettes of Organisms from PhyloPic.  |
+| [`hubTemplate`](https://github.com/hubverse-org/hubTemplate) | Hubverse repository template. |
+| [`pylabrobot`](https://github.com/PyLabRobot/pylabrobot) | interactive & hardware agnostic SDK for lab automation. |
+| [`covid19-forecast-hub`](https://github.com/CDCgov/covid19-forecast-hub) | A repository run by the US CDC to collect forecasts of weekly incident COVID-19 hospital admissions.  |
+| [`FluSight-forecast-hub`](https://github.com/cdcepi/FluSight-forecast-hub) | A repository to collect forecasts of weekly incident influenza hospital admissions. |
 
 </details>
 

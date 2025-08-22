@@ -140,18 +140,12 @@ EMPTY
 
 <br>
 
-To contact me with greetings / criticism / advice:
+To contact me with (greetings / criticism / advice / other remarks):
 
 * Email [my-username] + [at-symbol] + [proton] + [dot-symbol] + [me]
 
+Feel free also to create an [issue](https://github.com/O957/O957/issues) or [pull request](https://github.com/O957/O957/pulls) into this repository with (greetings / criticism / advice / other remarks).
 
-The constituent folders of this repository are:
-
-* `examples`: External examples for reference of actions or decisions that the author is considering doing or making, respectively.
-* `notes`: Notes that the author has taken and wishes to display publicly. These notes will oftentimes coincide with different resources stored in `./resources`.
-* `profile`: Images, including artwork and those the author has taken, that the author is using, has used, or intends to use, at some point, on his main README profile.
-* `resources`: Resources, including research papers and books, among other things, that the author wishes to store and (possibly) document publicly. Contained therein:
-
-Within each meaningful folder, the reader should find a README (these are under development, somewhat), which exist to aid the reader in navigating this repository, should doing so be something of interest.
+I am open to conversation and co-working and to conducting data science projects (in geology, paleontology, genetics, human reproduction, metascience, cliodynamics, forecasting, AI safety) projects together.
 
 </details>

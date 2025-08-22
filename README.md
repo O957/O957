@@ -88,10 +88,14 @@ EMPTY
 
 <summary> Contributions Over The Years On GitHub </summary>
 
+<br>
+
 
 <details markdown=1>
 
 <summary> 2025 </summary>
+
+<br>
 
 ![](./assets/images/contributions_2025.png)
 
@@ -104,6 +108,8 @@ EMPTY
 
 <summary> 2024 </summary>
 
+<br>
+
 ![](./assets/images/contributions_2024.png)
 
 </details>
@@ -114,6 +120,8 @@ EMPTY
 <details markdown=1>
 
 <summary> 2023 </summary>
+
+<br>
 
 ![](./assets/images/contributions_2023.png)
 
@@ -129,6 +137,8 @@ EMPTY
 <details markdown=1>
 
 <summary> How To Contact Me </summary>
+
+<br>
 
 To contact me with greetings / criticism / advice:
 

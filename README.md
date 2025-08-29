@@ -56,6 +56,7 @@ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/A
 | [`pyrenew`](https://github.com/CDCgov/PyRenew) | Python package for multi-signal Bayesian renewal modeling with JAX and NumPyro. | Developer | 17 |
 | [`pyrenew-flu-light`](https://github.com/CDCgov/pyrenew-flu-light) | A replication in Python and PyRenew of a renewal model written in Epidemia for forecasting influenza hospital admissions. | Admin | 1 |
 | [`covid19-forecast-hub `](https://github.com/CDCgov/covid19-forecast-hub) | A repository run by the US CDC to collect forecasts of weekly incident COVID-19 hospital admissions.  | Developer | 17 |
+| [`hubverse-annotator`](https://github.com/CDCgov/hubverse-annotator) | Locally-hosted web application for visualization of hubverse formatted observations and model forecasts and for annotation of data and models. | Admin | 3|
 | [`rsv-forecast-hub `](https://github.com/CDCgov/rsv-forecast-hub) | A repository run by the Centers for Disease Control and Prevention (CDC) to collect forecasts of weekly incident respiratory syncytial virus (RSV) hospitalizations.  | Admin | 1 |
 
 

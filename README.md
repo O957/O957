@@ -1,15 +1,19 @@
 
-![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/O957/O957/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910.jpg)
+![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/O957/O957/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910_edit.jpg)
+
+_A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called_
+Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946)._
 
 
-_A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called_ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946)_.
+# Welcome!
 
-
-In this repository, the reader will find some items that I have accumulated to facilitate my work.
+> [!NOTE]
+>
+> This repository contains some information about my work and GitHub activity. Means of contacting me are also provided.
 
 <details markdown=1>
 
-<summary> Some Brief Notes </summary>
+<summary> Overview Of Public, Non-Work Repositories </summary>
 
 ## Active
 
@@ -137,7 +141,7 @@ To contact me with (greetings / criticism / advice / other remarks):
 
 * Email [my-username] + [at-symbol] + [proton] + [dot-symbol] + [me]
 
-The constituent folders of this repository are:
+Feel free also to create an [issue](https://github.com/O957/O957/issues) or [pull request](https://github.com/O957/O957/pulls) into this repository with (greetings / criticism / advice / other remarks).
 
 I am open to conversation and co-working and to conducting data science projects (in geology, paleontology, genetics, human reproduction, metascience, cliodynamics, forecasting, AI safety) together.
 

@@ -11,9 +11,6 @@ In this repository, the reader will find some items that I have accumulated to f
 
 <summary> Some Brief Notes </summary>
 
-<<<<<<< Updated upstream
-To contact me:
-=======
 ## Active
 
 | Repository &emsp;| Description | Stars |
@@ -24,8 +21,7 @@ To contact me:
 | [`Anki-Decks`](https://github.com/O957/Anki-Decks) | The author's personal Anki workflow, making use of genanki.  | 0 |
 | [`Re-Wittmann-TDWMFC-2024`](https://github.com/O957/Re-Wittmann-TDWMFC-2024) | A partial replication in Python of the 2024 paper (The Demographic-Wealth model for cliodynamics) by Wittmann and Kuehn.   | 0 |
 | [`Programming-Protocols`](https://github.com/O957/Programming-Protocols) | Protocols for programming that I attempt to abide by.   | 0 |
-| [`Genetic-Evolution-Tournament`](https://github.com/O957/Genetic-Evolution-Tournament) | A Metaculus human judgment forecasting tournament establish\
-ed to generate forecasts and scenarios pertaining to the use of human genetic and reproductive technologies for treatment and enhancement. (Note: this has been transferred to another individual)  | 6 |
+| [`Genetic-Evolution-Tournament`](https://github.com/O957/Genetic-Evolution-Tournament) | A Metaculus human judgment forecasting tournament established to generate forecasts and scenarios pertaining to the use of human genetic and reproductive technologies for treatment and enhancement. (Note: this has been transferred to another individual)  | 6 |
 
 ## Stale
 
@@ -138,21 +134,11 @@ ed to generate forecasts and scenarios pertaining to the use of human genetic an
 <br>
 
 To contact me with (greetings / criticism / advice / other remarks):
->>>>>>> Stashed changes
 
 * Email [my-username] + [at-symbol] + [proton] + [dot-symbol] + [me]
 
 The constituent folders of this repository are:
 
-<<<<<<< Updated upstream
-* `examples`: External examples for reference of actions or decisions that the author is considering doing or making, respectively.
-* `notes`: Notes that the author has taken and wishes to display publicly. These notes will oftentimes coincide with different resources stored in `./resources`.
-* `profile`: Images, including artwork and those the author has taken, that the author is using, has used, or intends to use, at some point, on his main README profile.
-* `resources`: Resources, including research papers and books, among other things, that the author wishes to store and (possibly) document publicly. Contained therein:
-
-Within each meaningful folder, the reader should find a README (these are under development, somewhat), which exist to aid the reader in navigating this repository, should doing so be something of interest.
-=======
 I am open to conversation and co-working and to conducting data science projects (in geology, paleontology, genetics, human reproduction, metascience, cliodynamics, forecasting, AI safety) together.
->>>>>>> Stashed changes
 
 </details>

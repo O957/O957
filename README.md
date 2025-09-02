@@ -17,26 +17,26 @@ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/A
 
 ## Active
 
-| Repository &emsp;| Description | Stars |
-|:---|:---|:---|
-| [`O957 `](https://github.com/O957/O957) | The author's personal GitHub profile. Contained therein are some resources and decisions that the author has made concerning his use of GitHub. This repository exists as a place for onlookers to provide the author with feedback.  | 0 |
-| [`O957-Template`](https://github.com/O957/O957-Template) | A template I find useful for setting up Python and R repositories.  | 1 |
-| [`paleo-labels`](https://github.com/O957/paleo-labels) | A Python package for writing precisely formatted labels for natural specimens and related items, such as collections and excursions. | 4 |
-| [`Anki-Decks`](https://github.com/O957/Anki-Decks) | The author's personal Anki workflow, making use of genanki.  | 0 |
-| [`Re-Wittmann-TDWMFC-2024`](https://github.com/O957/Re-Wittmann-TDWMFC-2024) | A partial replication in Python of the 2024 paper (The Demographic-Wealth model for cliodynamics) by Wittmann and Kuehn.   | 0 |
-| [`Programming-Protocols`](https://github.com/O957/Programming-Protocols) | Protocols for programming that I attempt to abide by.   | 0 |
-| [`Genetic-Evolution-Tournament`](https://github.com/O957/Genetic-Evolution-Tournament) | A Metaculus human judgment forecasting tournament established to generate forecasts and scenarios pertaining to the use of human genetic and reproductive technologies for treatment and enhancement. (Note: this has been transferred to another individual)  | 6 |
+| Repository &emsp;| Description |
+|:---|:---|
+| [`O957 `](https://github.com/O957/O957) | The author's personal GitHub profile. Contained therein are some resources and decisions that the author has made concerning his use of GitHub. This repository exists as a place for onlookers to provide the author with feedback.  |
+| [`O957-Template`](https://github.com/O957/O957-Template) | A template I find useful for setting up Python and R repositories.  |
+| [`paleo-labels`](https://github.com/O957/paleo-labels) | A Python package for writing precisely formatted labels for natural specimens and related items, such as collections and excursions. |
+| [`Anki-Decks`](https://github.com/O957/Anki-Decks) | The author's personal Anki workflow, making use of genanki.  |
+| [`Re-Wittmann-TDWMFC-2024`](https://github.com/O957/Re-Wittmann-TDWMFC-2024) | A partial replication in Python of the 2024 paper (The Demographic-Wealth model for cliodynamics) by Wittmann and Kuehn.   |
+| [`Programming-Protocols`](https://github.com/O957/Programming-Protocols) | Protocols for programming that I attempt to abide by.   |
+| [`Genetic-Evolution-Tournament`](https://github.com/O957/Genetic-Evolution-Tournament) | A Metaculus human judgment forecasting tournament established to generate forecasts and scenarios pertaining to the use of human genetic and reproductive technologies for treatment and enhancement. (Note: this has been transferred to another individual)  |
 
 ## Stale
 
-| Repository &emsp;| Description | Stars |
-|:---|:---|:---|
-| [`Quarto-Website-Materials`](https://github.com/O957/Quarto-Website-Materials) | Templates for Quarto websites (blog pages, projects, and data visualization dashboards) for the author to reference in his work.   | 0 |
-| [`Personal-Helpers`](https://github.com/O957/Personal-Helpers) | The author's various templates for tasks in research and data science.   | 0 |
-| [`Forecasting-Tornadoes `](https://github.com/O957/Forecasting-Tornadoes) | The authors' attempts at forecasting and modelling tornados in the US.   | 3 |
-| [`Historical-Dynamics-Python`](https://github.com/O957/Historical-Dynamics-Python) | Implementations in Python using Diffrax of the models described in Peter Turchin's 2003 book Historical Dynamics.    | 1 |
-| [`Mathematics-Artwork`](https://github.com/O957/Mathematics-Artwork) | The author's personal mathematical artworks.  | 0 |
-| [`Aggregated-Model-Descriptions`](https://github.com/O957/Aggregated-Model-Descriptions) | This repository contains a website with descriptions and some documentation for models that the author and friends have built.  | 0 |
+| Repository &emsp;| Description |
+|:---|:---|
+| [`Quarto-Website-Materials`](https://github.com/O957/Quarto-Website-Materials) | Templates for Quarto websites (blog pages, projects, and data visualization dashboards) for the author to reference in his work.   |
+| [`Personal-Helpers`](https://github.com/O957/Personal-Helpers) | The author's various templates for tasks in research and data science.   |
+| [`Forecasting-Tornadoes `](https://github.com/O957/Forecasting-Tornadoes) | The authors' attempts at forecasting and modelling tornados in the US.   |
+| [`Historical-Dynamics-Python`](https://github.com/O957/Historical-Dynamics-Python) | Implementations in Python using Diffrax of the models described in Peter Turchin's 2003 book Historical Dynamics.    |
+| [`Mathematics-Artwork`](https://github.com/O957/Mathematics-Artwork) | The author's personal mathematical artworks.  |
+| [`Aggregated-Model-Descriptions`](https://github.com/O957/Aggregated-Model-Descriptions) | This repository contains a website with descriptions and some documentation for models that the author and friends have built.  |
 
 
 </details>
@@ -50,14 +50,14 @@ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/A
 
 <summary> Overview Of Public, Work Repositories </summary>
 
-| Repository &emsp;| Description | Role | Stars |
-|:---|:---|:---|:---|
-| [`forecasttools-py`](https://github.com/CDCgov/forecasttools-py) | A Python package for common pre- and post-processing operations done by CFA Predict for short term forecasting, nowcasting, and scenario modeling. | Admin | 7 |
-| [`pyrenew`](https://github.com/CDCgov/PyRenew) | Python package for multi-signal Bayesian renewal modeling with JAX and NumPyro. | Developer | 17 |
-| [`pyrenew-flu-light`](https://github.com/CDCgov/pyrenew-flu-light) | A replication in Python and PyRenew of a renewal model written in Epidemia for forecasting influenza hospital admissions. | Admin | 1 |
-| [`covid19-forecast-hub `](https://github.com/CDCgov/covid19-forecast-hub) | A repository run by the US CDC to collect forecasts of weekly incident COVID-19 hospital admissions.  | Developer | 17 |
-| [`hubverse-annotator`](https://github.com/CDCgov/hubverse-annotator) | Locally-hosted web application for visualization of hubverse formatted observations and model forecasts and for annotation of data and models. | Admin | 3|
-| [`rsv-forecast-hub `](https://github.com/CDCgov/rsv-forecast-hub) | A repository run by the Centers for Disease Control and Prevention (CDC) to collect forecasts of weekly incident respiratory syncytial virus (RSV) hospitalizations.  | Admin | 1 |
+| Repository &emsp;| Description | Role |
+|:---|:---|:---|
+| [`forecasttools-py`](https://github.com/CDCgov/forecasttools-py) | A Python package for common pre- and post-processing operations done by CFA Predict for short term forecasting, nowcasting, and scenario modeling. | Admin |
+| [`pyrenew`](https://github.com/CDCgov/PyRenew) | Python package for multi-signal Bayesian renewal modeling with JAX and NumPyro. | Developer |
+| [`pyrenew-flu-light`](https://github.com/CDCgov/pyrenew-flu-light) | A replication in Python and PyRenew of a renewal model written in Epidemia for forecasting influenza hospital admissions. | Admin |
+| [`covid19-forecast-hub `](https://github.com/CDCgov/covid19-forecast-hub) | A repository run by the US CDC to collect forecasts of weekly incident COVID-19 hospital admissions.  | Developer |
+| [`hubverse-annotator`](https://github.com/CDCgov/hubverse-annotator) | Locally-hosted web application for visualization of hubverse formatted observations and model forecasts and for annotation of data and models. | Admin |
+| [`rsv-forecast-hub `](https://github.com/CDCgov/rsv-forecast-hub) | A repository run by the Centers for Disease Control and Prevention (CDC) to collect forecasts of weekly incident respiratory syncytial virus (RSV) hospitalizations.  | Admin |
 
 
 </details>

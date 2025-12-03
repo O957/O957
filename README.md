@@ -26,6 +26,15 @@ Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/A
 | [`Re-Wittmann-TDWMFC-2024`](https://github.com/O957/Re-Wittmann-TDWMFC-2024) | A partial replication in Python of the 2024 paper (The Demographic-Wealth model for cliodynamics) by Wittmann and Kuehn.   |
 | [`Programming-Protocols`](https://github.com/O957/Programming-Protocols) | Protocols for programming that I attempt to abide by.   |
 | [`Genetic-Evolution-Tournament`](https://github.com/O957/Genetic-Evolution-Tournament) | A Metaculus human judgment forecasting tournament established to generate forecasts and scenarios pertaining to the use of human genetic and reproductive technologies for treatment and enhancement. (Note: this has been transferred to another individual)  |
+| [`sort-by-citations`](https://github.com/O957/sort-by-citations) | A streamlit application which uses pyalex (via OpenAlex) find the top N academic resources by citation count for researcher or keyword searches. |
+| [`fossil-species-references`](https://github.com/O957/fossil-species-references) | Streamlit application and standalone Python script for retrieving original publication data for fauna using the Paleobiology Database.  |
+| [`awesome-astrobiology`](https://github.com/O957/awesome-astrobiology) | A curated list of awesome resources for astrobiology. |
+| [`awesome-cliodynamics`](https://github.com/O957/awesome-cliodynamics) | A curated list of awesome resources for cliodynamics. |
+| [`awesome-genetic-engineering`](https://github.com/O957/awesome-genetic-engineering) | A curated list of awesome resources for genetic engineering. |
+| [`awesome-infectious-disease-modeling`](https://github.com/O957/awesome-infectious-disease-modeling) | A curated list of awesome resources for infectious disease modeling.|
+| [`awesome-paleontology`](https://github.com/O957/awesome-paleontology) | A curated list of awesome resources for paleontology. |
+| [`awesome-preimplantation-genetic-diagnosis`](https://github.com/O957/awesome-preimplantation-genetic-diagnosis) | A curated list of awesome resources for PGD, i.e. preimplantation genetic diagnosis. |
+| [`awesome-geology`](https://github.com/O957/awesome-geology) | A curated list of awesome resources for geology. |
 
 ## Stale
 

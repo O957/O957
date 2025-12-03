@@ -1,8 +1,7 @@
 
-![Odysseus_Homesickness_by_Alexander_Rothaug_1910](https://github.com/O957/O957/raw/main/profile/Odysseus_Homesickness_by_Alexander_Rothaug_1910_edit.jpg)
+![Pioneer](https://github.com/O957/O957/raw/main/profile/pioneer.png)
 
-_A 1910 oil [painting](https://commons.wikimedia.org/wiki/File:Alexander_rothaug,_ulisse,_nostalgia_della_patria,_1910_(the_jack_daulton_collection)_02.jpg) called_
-Odysseus’ Homesickness _by [Alexander Rothaug](https://de.wikipedia.org/wiki/Alexander_Rothaug) (March 13, 1870 — March 5, 1946)._
+> NASA image of Pioneer 10's famed Pioneer plaque features a design engraved into a gold-anodized aluminum plate, 152 by 229 millimeters (6 by 9 inches), attached to the spacecraft's antenna support struts to help shield it from erosion by interstellar dust. (see [here](https://en.wikipedia.org/wiki/File:Pioneer10-plaque.jpg))
 
 
 # Welcome!

@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = [
   {name = "O957", email = "127630341+O957@users.noreply.github.com"},
 ]
-description = "The author's personal GitHub profile. Contained therein are some resources the author makes use of and decisions that the author has made concerning his use of GitHub. This repository also exists as a place for onlookers to provide the author with feedback."
+description = "The author's primary node for interfacing with the public and making connections on GitHub."
 readme = "README.md"
 license = "Apache-2.0"
 keywords = ["personal"]
